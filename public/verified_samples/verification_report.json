@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-09-26T05:51:43.222Z",
+  "imageModel": {
+    "requestedId": "gemini-3.1-flash-lite-image",
+    "verifiedId": "gemini-3.1-flash-lite-image",
+    "sdkMethod": "ai.models.generateContent({ model: 'gemini-3.1-flash-lite-image', config: { responseModalities: ['IMAGE'] } })",
+    "status": "verified",
+    "capabilities": [
+      "Text-to-Image storyboard generation (image/jpeg)",
+      "Multimodal reference image input for cross-scene visual consistency",
+      "Rapid scene-level regeneration"
+    ],
+    "limitations": [
+      "Returns single keyframe image per call; aspect ratio guided via prompt + reference image framing"
+    ],
+    "sampleAssetUrl": "/verified_samples/verified_image_gemini-3.1-flash-lite-image.jpg"
+  },
+  "videoOmniModel": {
+    "requestedId": "gemini-omni-1.1-flash",
+    "verifiedId": "gemini-omni-1.1-flash",
+    "sdkMethod": "ai.interactions.create({ model: 'gemini-omni-1.1-flash', response_modalities: ['video'] })",
+    "status": "verified",
+    "capabilities": [
+      "Native MP4 (video/mp4, H.264) clip generation via Interactions API",
+      "Image + Text to Video animation from approved Nano Banana 2 Lite storyboard frames",
+      "Stateful conversational editing via previous_interaction_id and natural-language director prompts",
+      "Scene-level version history preservation without regenerating unaffected scenes"
+    ],
+    "limitations": [
+      "Each interaction generates a ~4-8s MP4 clip; longer durations and cross-scene transitions are normalized and assembled via FFmpeg",
+      "Audio speech_config voice parameter is not supported when generating video; soundtrack is mixed via Lyria 3.5 + FFmpeg"
+    ],
+    "sampleVideoUrl": "/verified_samples/verified_video_gemini-omni-1.1-flash.mp4"
+  },
+  "musicModel": {
+    "requestedId": "lyria-3.5",
+    "verifiedId": "lyria-3.5",
+    "sdkMethod": "ai.models.generateContent({ model: 'lyria-3.5', config: { responseModalities: ['AUDIO'] } })",
+    "status": "verified",
+    "capabilities": [
+      "Native soundtrack generation (audio/mp3) via generateContent with AUDIO modality",
+      "Mood, genre, tempo, and instrumentation control via structured prompts",
+      "Multiple take history and preview before final FFmpeg audio mix"
+    ],
+    "limitations": [
+      "Called via ai.models.generateContent (not ai.music.generate in @google/genai v2.4.0)",
+      "Does not perform automatic frame-locked beat synchronization; FFmpeg handles duration trimming, volume leveling, and fade-in/out envelopes"
+    ],
+    "sampleAudioUrl": "/verified_samples/verified_audio_lyria-3.5.mp3"
+  },
+  "ffmpegEngine": {
+    "binaryPath": "/usr/bin/ffmpeg",
+    "version": "4.4.2 (libx264, aac, libfreetype, libfontconfig, ffprobe)",
+    "capabilities": [
+      "Resolution & framerate normalization (1280x720 16:9, 720x1280 9:16, 720x720 1:1 @ 24fps yuv420p)",
+      "Scene transition fades and drawtext lower-third overlays",
+      "Multi-clip concatenation and Lyria 3.5 stereo AAC soundtrack mixing with afade envelopes",
+      "Automated post-render ffprobe stream validation (codec, frame count, duration, audio stream check)"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "Campaign": {
+      "title": "Campaign",
+      "description": "Multimodal AI advertisement campaign with creative brief, AI plan, storyboard scenes, soundtrack, and rendered MP4 output.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "brandName": { "type": "string" },
+        "productDescription": { "type": "string" },
+        "targetAudience": { "type": "string" },
+        "campaignObjective": { "type": "string" },
+        "creativeStyle": { "type": "string" },
+        "durationSeconds": { "type": "number" },
+        "aspectRatio": { "type": "string", "enum": ["16:9", "9:16", "1:1"] },
+        "language": { "type": "string" },
+        "status": { "type": "string" },
+        "plan": { "type": "object" },
+        "scenes": { "type": "array", "items": { "type": "object" } },
+        "soundtrack": { "type": "object" },
+        "finalRender": { "type": "object" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "ownerId", "brandName", "productDescription", "status", "createdAt", "updatedAt"]
+    },
+    "Job": {
+      "title": "PipelineJob",
+      "description": "Tracks generation and FFmpeg rendering jobs across Nano Banana 2 Lite, Gemini Omni Flash, Lyria, and FFmpeg.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "campaignId": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "type": { "type": "string" },
+        "status": { "type": "string", "enum": ["queued", "running", "completed", "failed"] },
+        "progress": { "type": "number" },
+        "modelId": { "type": "string" },
+        "message": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "campaignId", "ownerId", "type", "status", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/campaigns/{campaignId}": {
+      "schema": { "$ref": "#/entities/Campaign" },
+      "description": "Stores multimodal ad campaigns and scene storyboards."
+    },
+    "/jobs/{jobId}": {
+      "schema": { "$ref": "#/entities/Job" },
+      "description": "Stores background generation and rendering job states."
+    }
+  }
+}

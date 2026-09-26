@@ -1,0 +1,79 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    // Collection: campaigns
+    // Document ID: {campaignId}
+    // Fields:
+    //   - id: string (required)
+    //   - ownerId: string (required)
+    //   - brandName: string (required, 1..200 chars)
+    //   - productDescription: string (required, 1..4000 chars)
+    //   - status: string (required)
+    //   - createdAt: string (required)
+    //   - updatedAt: string (required)
+    //
+    // Collection: jobs
+    // Document ID: {jobId}
+    // Fields:
+    //   - id: string (required)
+    //   - campaignId: string (required)
+    //   - ownerId: string (required)
+    //   - type: string (required)
+    //   - status: string (required)
+    //   - createdAt: string (required)
+    // ===============================================================
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isValidCampaign(data) {
+      return data.keys().hasAll(['id', 'ownerId', 'brandName', 'productDescription', 'status', 'createdAt', 'updatedAt']) &&
+             data.id is string && data.id.size() > 0 && data.id.size() <= 128 &&
+             data.ownerId is string && data.ownerId.size() > 0 && data.ownerId.size() <= 128 &&
+             data.brandName is string && data.brandName.size() > 0 && data.brandName.size() <= 200 &&
+             data.productDescription is string && data.productDescription.size() > 0 && data.productDescription.size() <= 5000 &&
+             data.status is string && data.status.size() <= 64 &&
+             data.createdAt is string && data.createdAt.size() <= 64 &&
+             data.updatedAt is string && data.updatedAt.size() <= 64;
+    }
+
+    function isValidJob(data) {
+      return data.keys().hasAll(['id', 'campaignId', 'ownerId', 'type', 'status', 'createdAt']) &&
+             data.id is string && data.id.size() > 0 && data.id.size() <= 128 &&
+             data.campaignId is string && data.campaignId.size() > 0 && data.campaignId.size() <= 128 &&
+             data.ownerId is string && data.ownerId.size() > 0 && data.ownerId.size() <= 128 &&
+             data.type is string && data.type.size() <= 64 &&
+             data.status in ['queued', 'running', 'completed', 'failed'] &&
+             data.createdAt is string && data.createdAt.size() <= 64;
+    }
+
+    match /campaigns/{campaignId} {
+      allow read: if isAuthenticated() && (resource.data.ownerId == request.auth.uid || resource.data.ownerId == 'public-demo') ||
+                     (resource != null && resource.data.ownerId == 'public-demo');
+      allow create: if (isAuthenticated() && request.resource.data.ownerId == request.auth.uid && isValidCampaign(request.resource.data)) ||
+                       (request.resource.data.ownerId == 'public-demo' && isValidCampaign(request.resource.data));
+      allow update: if ((isAuthenticated() && resource.data.ownerId == request.auth.uid && request.resource.data.ownerId == request.auth.uid) ||
+                       (resource.data.ownerId == 'public-demo' && request.resource.data.ownerId == 'public-demo')) &&
+                       isValidCampaign(request.resource.data);
+      allow delete: if (isAuthenticated() && resource.data.ownerId == request.auth.uid) ||
+                       (resource.data.ownerId == 'public-demo');
+    }
+
+    match /jobs/{jobId} {
+      allow read: if (isAuthenticated() && resource.data.ownerId == request.auth.uid) ||
+                     (resource != null && resource.data.ownerId == 'public-demo');
+      allow create: if ((isAuthenticated() && request.resource.data.ownerId == request.auth.uid) ||
+                       (request.resource.data.ownerId == 'public-demo')) &&
+                       isValidJob(request.resource.data);
+      allow update: if ((isAuthenticated() && resource.data.ownerId == request.auth.uid && request.resource.data.ownerId == request.auth.uid) ||
+                       (resource.data.ownerId == 'public-demo' && request.resource.data.ownerId == 'public-demo')) &&
+                       isValidJob(request.resource.data);
+      allow delete: if (isAuthenticated() && resource.data.ownerId == request.auth.uid) ||
+                       (resource.data.ownerId == 'public-demo');
+    }
+  }
+}

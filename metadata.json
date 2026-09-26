@@ -1,0 +1,6 @@
+{
+  "name": "GenMedia Studio",
+  "description": "Multimodal AI Advertisement Production Platform powered by Nano Banana 2 Lite, Gemini Omni Flash, and Lyria 3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

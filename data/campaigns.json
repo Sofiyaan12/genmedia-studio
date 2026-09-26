@@ -1,0 +1,144 @@
+[
+  {
+    "id": "camp_kona_aero_flagship",
+    "ownerId": "public-demo",
+    "brandName": "KONA AERO",
+    "productDescription": "Architectural matte-black titanium espresso and pour-over brewing system with precision thermal extraction and borosilicate glass carafe.",
+    "targetAudience": "Specialty coffee enthusiasts, industrial designers, and modern home baristas",
+    "campaignObjective": "Launch the KONA AERO flagship brewer with a tactile, sensory-driven commercial",
+    "creativeStyle": "Tactile Anamorphic Macro Cinematography, Warm Golden Rim Lighting, Obsidian & Amber Palette",
+    "durationSeconds": 12,
+    "aspectRatio": "16:9",
+    "language": "English",
+    "status": "completed",
+    "plan": {
+      "creativeConcept": "The Architecture of Essence: A cinematic exploration of the intersection between industrial engineering and the sensory ritual of coffee brewing.",
+      "campaignMessage": "KONA AERO: Precision Engineered. Sensory Refined.",
+      "visualIdentity": {
+        "colorPalette": [
+          "Obsidian Black (#0A0A0A)",
+          "Amber Gold (#FFBF00)",
+          "Burnt Sienna (#8B4513)",
+          "Titanium Grey (#2F2F2F)"
+        ],
+        "lightingStyle": "High-contrast chiaroscuro with intense warm golden rim lighting and deep shadows to emphasize texture.",
+        "lensAndFraming": "40mm Anamorphic Macro, shallow depth of field (f/1.4), horizontal lens flares, and extreme close-ups.",
+        "continuityAnchors": "Micro-etched matte-black titanium surface, borosilicate glass transparency, and the signature amber-hued coffee bloom."
+      },
+      "musicalMood": "Sophisticated, atmospheric industrial-jazz with deep cello bass notes and metallic percussive textures.",
+      "soundtrackPrompt": "A deep, resonant cello solo layered with the tactile sounds of metal clicking, water sizzling, and low-frequency cinematic pulses. Atmospheric and premium."
+    },
+    "scenes": [
+      {
+        "id": "scene_1_muhywxe0",
+        "sceneNumber": 1,
+        "title": "The Titanium Core",
+        "durationSeconds": 4,
+        "imagePrompt": "Macro anamorphic shot of KONA AERO matte-black titanium surface, micro-etched textures catching warm golden rim light, obsidian black background, amber light reflections, professional product photography.",
+        "videoPrompt": "Extreme macro glide over the matte-black titanium surface of the KONA AERO. Warm golden rim light dances across the micro-etched metal grooves. Cinematic anamorphic lens flares in amber. High contrast, 4k.. Director Edit: Make the lighting warmer golden hour with richer rising steam and a smooth orbital pan right",
+        "cameraMovement": "Orbital Pan Right",
+        "audioDirection": "Metallic 'shing' sound of polished titanium, deep ambient hum.",
+        "transitionType": "fade",
+        "overlayText": "TITANIUM PRECISION",
+        "approved": true,
+        "status": "video_ready",
+        "versionHistory": [
+          {
+            "version": 1,
+            "timestamp": "2026-09-26T05:48:19.845Z",
+            "instruction": "Initial scene video generation",
+            "imageUrl": "/assets/images/scene_1_muhywxe0_1790401651650.jpg",
+            "videoUrl": "/assets/videos/scene_1_muhywxe0_v1_1790401699604.mp4",
+            "cameraMovement": "Slow horizontal tracking shot from left to right.",
+            "videoPrompt": "Extreme macro glide over the matte-black titanium surface of the KONA AERO. Warm golden rim light dances across the micro-etched metal grooves. Cinematic anamorphic lens flares in amber. High contrast, 4k.",
+            "directorNotes": "Generated native video clip via gemini-omni-1.1-flash (Slow horizontal tracking shot from left to right.)",
+            "interactionId": "v1_ChdubHkzYXZTNE90cm5xZmtQdEt1Y21BNBIXbmx5M2F2UzRPdHJucWZrUHRLdWNtQTQ"
+          }
+        ],
+        "imageUrl": "/assets/images/scene_1_muhywxe0_1790401651650.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "videoUrl": "/assets/videos/scene_1_muhywxe0_v2_1790401770495.mp4",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "interactionId": "v1_ChdubHkzYXZTNE90cm5xZmtQdEt1Y21BNBIXNWx5M2F1Ni1OcnVkNC1FUHBleXQtQXc",
+        "directorNotes": "Applied edit via gemini-omni-1.1-flash: \"Make the lighting warmer golden hour with richer rising steam and a smooth orbital pan right\""
+      },
+      {
+        "id": "scene_2_muhywxe0",
+        "sceneNumber": 2,
+        "title": "The Thermal Bloom",
+        "durationSeconds": 4,
+        "imagePrompt": "Close-up of coffee blooming inside a borosilicate glass carafe, amber liquid swirling against a matte-black titanium filter, golden steam rising, obsidian palette, anamorphic bokeh.",
+        "videoPrompt": "Slow motion capture of coffee grounds blooming under hot water. Amber liquid cascades down the borosilicate glass. The matte-black titanium frame is visible in the periphery with golden rim lighting. Steam swirls in the highlights.",
+        "cameraMovement": "Slow vertical crane shot upwards.",
+        "audioDirection": "Crisp, wet sizzling and bubbling sounds, rising melodic cello.",
+        "transitionType": "fade",
+        "overlayText": "THERMAL EXTRACTION",
+        "approved": true,
+        "status": "video_ready",
+        "versionHistory": [],
+        "imageUrl": "/assets/images/scene_2_muhywxe0_1790401655710.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "videoUrl": "/assets/videos/scene_2_muhywxe0_v1_1790401812580.mp4",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "interactionId": "v1_ChdEMTIzYXZqakZwU0pnOFVQeHVuaS1BNBIXRDEyM2F2ampGcFNKZzhVUHh1bmktQTQ",
+        "directorNotes": "Generated native video clip via gemini-omni-1.1-flash (Slow vertical crane shot upwards.)"
+      },
+      {
+        "id": "scene_3_muhywxe0",
+        "sceneNumber": 3,
+        "title": "The KONA Silhouette",
+        "durationSeconds": 4,
+        "imagePrompt": "Full silhouette of the KONA AERO brewing system on a dark reflective surface, glowing amber rim light defining the architectural matte-black shape, borosilicate glass carafe filled with coffee at the base.",
+        "videoPrompt": "Pull back reveal of the entire KONA AERO system. The matte-black titanium body is sculpted by a singular, intense golden rim light against an obsidian void. Reflection on the base is amber and rich.",
+        "cameraMovement": "Slow dolly-out and zoom-out.",
+        "audioDirection": "Final resonant bass note, the sound of a glass carafe touching a stone surface.",
+        "transitionType": "fade",
+        "overlayText": "KONA AERO. THE ART OF THE BREW.",
+        "approved": true,
+        "status": "video_ready",
+        "versionHistory": [],
+        "imageUrl": "/assets/images/scene_3_muhywxe0_1790401659338.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "videoUrl": "/assets/videos/scene_3_muhywxe0_v1_1790401854273.mp4",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "interactionId": "v1_ChdPbDIzYXVfcUg0UEZnOFVQOXVHWHdBOBIXT2wyM2F1X3FINFBGZzhVUDl1R1h3QTg",
+        "directorNotes": "Generated native video clip via gemini-omni-1.1-flash (Slow dolly-out and zoom-out.)"
+      }
+    ],
+    "soundtrack": {
+      "mood": "Sophisticated, atmospheric industrial-jazz with deep cello bass notes and metallic percussive textures.",
+      "prompt": "A deep, resonant cello solo layered with the tactile sounds of metal clicking, water sizzling, and low-frequency cinematic pulses. Atmospheric and premium.",
+      "status": "ready",
+      "audioUrl": "/assets/audio/soundtrack_camp_kona_aero_flagship_1790401893612.mp3",
+      "modelUsed": "lyria-3.5",
+      "generatedLyricsOrNotes": "[[A0]]\n[:] (Mmm...)\n[:] (Kona Aero...)\n[:] (Ssh...)\n[[B1]]\n[:] (Aero...)\n[:] (Hoo...)\n[:] (Kona...)\n[[C2]]\n[:] (Prepare...)\n[:] (Ahhh!)\n[[D3]]\n[:] KONA AERO!\n[:] (Ahhhhhh...)\n[:] KONA AERO!\n[:] (Ohhhhhh...)\n[[B4]]\n[:] (Sensing...)\n[:] (Kona...)\n[:] (Focus...)\n[[D5]]\n[:] KONA AERO!\n[:] (Ahhhhhh...)\n[:] KONA AERO!\n[:] (Ohhhhhh...)\n[[E6]]\n[:] (Kona...)\n[:] (Aero...)\n[:] (Mmm...)\n[:] (Ssh...)",
+      "includeInFinalMix": true,
+      "volumeLevel": 0.85,
+      "history": []
+    },
+    "finalRender": {
+      "status": "completed",
+      "videoUrl": "/assets/renders/ad_camp_kona_aero_flagship_1790401902830.mp4",
+      "renderedAt": "2026-09-26T05:51:43.222Z",
+      "resolution": "1280x720",
+      "fps": 24,
+      "durationSeconds": 12,
+      "fileSizeBytes": 2581189,
+      "ffmpegCommandLog": "ffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_1_muhywxe0_v2_1790401770495.mp4 -t 4 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='TITANIUM PRECISION':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/seg_00.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_2_muhywxe0_v1_1790401812580.mp4 -t 4 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='THERMAL EXTRACTION':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/seg_01.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_3_muhywxe0_v1_1790401854273.mp4 -t 4 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='KONA AERO. THE ART OF THE BREW.':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/seg_02.mp4\n\nffmpeg -y -f concat -safe 0 -i /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/concat_list.txt -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/concatenated_video.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/concatenated_video.mp4 -stream_loop -1 -i /app/applet/public/assets/audio/soundtrack_camp_kona_aero_flagship_1790401893612.mp3 -t 12 -filter:a volume=0.85,afade=t=in:st=0:d=0.6,afade=t=out:st=10.50:d=1.4 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -shortest /app/applet/public/assets/renders/ad_camp_kona_aero_flagship_1790401902830.mp4",
+      "validationReport": {
+        "valid": true,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "width": 1280,
+        "height": 720,
+        "durationSeconds": 12,
+        "frameCount": 288,
+        "hasAudioStream": true,
+        "fileSizeBytes": 2581189,
+        "checkedAt": "2026-09-26T05:51:43.219Z"
+      }
+    },
+    "createdAt": "2026-09-26T05:51:43.222Z",
+    "updatedAt": "2026-09-26T05:51:43.222Z"
+  }
+]
