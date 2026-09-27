@@ -67,3 +67,22 @@ A reference FastAPI orchestration service is also provided in `/backend/main.py`
 pip install -r backend/requirements.txt
 uvicorn backend.main:app --reload --port 8000
 ```
+
+---
+
+## 4. Team Contributions
+
+* **Mohammed Sofiyaan** — *Frontend, Backend, Orchestration, Agentic AI & AI Campaign Planner*: Architected the GenMedia Studio frontend and backend (`src/App.tsx`, `src/components/*`), multi-agent orchestration server (`server.ts`, `server/agentOrchestrator.ts`), autonomous Agentic AI model build (`AgenticCommandCenter.tsx`), structured AI Campaign Planner (`BriefAndPlannerStage.tsx`), regional localization engine, live model verification suite, and end-to-end QA pipeline.
+* **Syed Saad Ahmed** — *Multimodal Image & Video Pipeline (`gemini-3.1-flash-lite-image` & `gemini-omni-1.1-flash`)*: Integrated Nano Banana 2 Lite with reference-image chaining for cross-scene visual consistency (`StoryboardStage.tsx`) and Gemini Omni Flash via the Interactions API (`ai.interactions.create`) with stateful conversational editing (`previous_interaction_id`) and non-destructive `versionHistory` rollback (`VideoDirectorStage.tsx`).
+* **Mohd Rayyan Bin Mohd Jaweed** — *Adaptive Audio Synthesis (`lyria-3.5`) & FFmpeg Master Rendering Engine*: Integrated Lyria 3.5 (`AUDIO` modality) for custom commercial scoring (`SoundtrackAndRenderStage.tsx`), built the FFmpeg normalization/overlay/mixing pipeline (`server/ffmpegRenderer.ts`), and implemented automated post-render `ffprobe` stream validation.
+* **Mohamed Mustafa Ali Khan** — *Cloud Sync, Database & Authentication*: Engineered the Cloud Sync architecture, Firebase Authentication, and Cloud Firestore database persistence layer (`src/firebase.ts`, `firestore.rules`, `firebase-blueprint.json`).
+
+---
+
+## 5. Documentation Suite
+
+* **In-App Interactive Documentation**: Click **User Guide & Docs** in the top studio header bar (or the **Documentation & User Guide** tab in the pipeline navigation bar).
+* [`/USER_GUIDE.md`](./USER_GUIDE.md) — Complete User Guide, Tech Stack, Architecture, Implementation Reference, Model API Guide, Team Contributions, and FAQ.
+* [`/ARCHITECTURE.md`](./ARCHITECTURE.md) — System Architecture Diagram and Shared API & Asset Contracts.
+* [`/KAGGLE_WRITEUP.md`](./KAGGLE_WRITEUP.md) — Official Hackathon Kaggle Submission Write-Up (<1,500 words).
+

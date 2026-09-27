@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for adding full-duplex Gemini Live API real-time voice conversations with direct voice-triggered campaign orchestration, alongside Admin RBAC and Read-Only Showcase protection to safeguard live API quota from new or guest users.",
+  "updatedAt":  "2026-09-27T07:46:44.286040308Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

@@ -1,79 +1,113 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // ===============================================================
-    // Assumed Data Model
-    // ===============================================================
-    // Collection: campaigns
-    // Document ID: {campaignId}
-    // Fields:
-    //   - id: string (required)
-    //   - ownerId: string (required)
-    //   - brandName: string (required, 1..200 chars)
-    //   - productDescription: string (required, 1..4000 chars)
-    //   - status: string (required)
-    //   - createdAt: string (required)
-    //   - updatedAt: string (required)
-    //
-    // Collection: jobs
-    // Document ID: {jobId}
-    // Fields:
-    //   - id: string (required)
-    //   - campaignId: string (required)
-    //   - ownerId: string (required)
-    //   - type: string (required)
-    //   - status: string (required)
-    //   - createdAt: string (required)
-    // ===============================================================
+    // Default-deny catch-all safety net
+    match /{document=**} {
+      allow read, write: if false;
+    }
 
-    function isAuthenticated() {
+    function isSignedIn() {
       return request.auth != null;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidUserProfile(data, userId) {
+      return data.keys().hasAll(['uid', 'displayName', 'createdAt', 'lastLoginAt']) &&
+             data.keys().hasOnly(['uid', 'displayName', 'photoURL', 'createdAt', 'lastLoginAt']) &&
+             data.uid is string && data.uid == userId && data.uid.size() <= 128 &&
+             data.displayName is string && data.displayName.size() >= 1 && data.displayName.size() <= 120 &&
+             (!('photoURL' in data) || (data.photoURL is string && data.photoURL.size() <= 1024)) &&
+             data.createdAt is string && data.createdAt.size() <= 64 &&
+             data.lastLoginAt is string && data.lastLoginAt.size() <= 64;
+    }
+
+    function isValidUserPrivateInfo(data, userId) {
+      return data.keys().hasAll(['uid', 'email', 'updatedAt']) &&
+             data.keys().hasOnly(['uid', 'email', 'updatedAt']) &&
+             data.uid is string && data.uid == userId && data.uid.size() <= 128 &&
+             data.email is string && data.email.size() >= 3 && data.email.size() <= 256 &&
+             data.updatedAt is string && data.updatedAt.size() <= 64;
     }
 
     function isValidCampaign(data) {
       return data.keys().hasAll(['id', 'ownerId', 'brandName', 'productDescription', 'status', 'createdAt', 'updatedAt']) &&
-             data.id is string && data.id.size() > 0 && data.id.size() <= 128 &&
-             data.ownerId is string && data.ownerId.size() > 0 && data.ownerId.size() <= 128 &&
-             data.brandName is string && data.brandName.size() > 0 && data.brandName.size() <= 200 &&
-             data.productDescription is string && data.productDescription.size() > 0 && data.productDescription.size() <= 5000 &&
+             isValidId(data.id) &&
+             isValidId(data.ownerId) &&
+             data.ownerId == request.auth.uid &&
+             data.brandName is string && data.brandName.size() >= 1 && data.brandName.size() <= 200 &&
+             data.productDescription is string && data.productDescription.size() >= 1 && data.productDescription.size() <= 5000 &&
+             (!('targetAudience' in data) || (data.targetAudience is string && data.targetAudience.size() <= 2000)) &&
+             (!('campaignObjective' in data) || (data.campaignObjective is string && data.campaignObjective.size() <= 2000)) &&
+             (!('creativeStyle' in data) || (data.creativeStyle is string && data.creativeStyle.size() <= 2000)) &&
+             (!('language' in data) || (data.language is string && data.language.size() <= 100)) &&
+             (!('referenceImageUrl' in data) || (data.referenceImageUrl is string && data.referenceImageUrl.size() <= 1024)) &&
+             (!('aspectRatio' in data) || data.aspectRatio in ['16:9', '9:16', '1:1']) &&
+             (!('scenes' in data) || (data.scenes is list && data.scenes.size() <= 10)) &&
              data.status is string && data.status.size() <= 64 &&
              data.createdAt is string && data.createdAt.size() <= 64 &&
              data.updatedAt is string && data.updatedAt.size() <= 64;
     }
 
     function isValidJob(data) {
-      return data.keys().hasAll(['id', 'campaignId', 'ownerId', 'type', 'status', 'createdAt']) &&
-             data.id is string && data.id.size() > 0 && data.id.size() <= 128 &&
-             data.campaignId is string && data.campaignId.size() > 0 && data.campaignId.size() <= 128 &&
-             data.ownerId is string && data.ownerId.size() > 0 && data.ownerId.size() <= 128 &&
-             data.type is string && data.type.size() <= 64 &&
+      return data.keys().hasAll(['id', 'campaignId', 'ownerId', 'type', 'status', 'createdAt', 'updatedAt']) &&
+             isValidId(data.id) &&
+             isValidId(data.campaignId) &&
+             isValidId(data.ownerId) &&
+             data.ownerId == request.auth.uid &&
+             data.type in ['plan', 'scene_image', 'scene_video', 'scene_edit', 'soundtrack', 'final_render'] &&
              data.status in ['queued', 'running', 'completed', 'failed'] &&
-             data.createdAt is string && data.createdAt.size() <= 64;
+             (!('modelId' in data) || (data.modelId is string && data.modelId.size() <= 128)) &&
+             (!('message' in data) || (data.message is string && data.message.size() <= 1000)) &&
+             data.createdAt is string && data.createdAt.size() <= 64 &&
+             data.updatedAt is string && data.updatedAt.size() <= 64;
+    }
+
+    match /users/{userId} {
+      allow get: if isSignedIn() && isValidId(userId) && isOwner(userId);
+      allow create: if isSignedIn() && isValidId(userId) && isOwner(userId) && isValidUserProfile(incoming(), userId);
+      allow update: if isSignedIn() && isValidId(userId) && isOwner(userId) && isValidUserProfile(incoming(), userId) &&
+                       incoming().uid == existing().uid;
+
+      match /private/{docId} {
+        allow get: if isSignedIn() && isValidId(userId) && isValidId(docId) && isOwner(userId);
+        allow create: if isSignedIn() && isValidId(userId) && isValidId(docId) && isOwner(userId) &&
+                         isValidUserPrivateInfo(incoming(), userId);
+        allow update: if isSignedIn() && isValidId(userId) && isValidId(docId) && isOwner(userId) &&
+                         isValidUserPrivateInfo(incoming(), userId) && incoming().uid == existing().uid;
+      }
     }
 
     match /campaigns/{campaignId} {
-      allow read: if isAuthenticated() && (resource.data.ownerId == request.auth.uid || resource.data.ownerId == 'public-demo') ||
-                     (resource != null && resource.data.ownerId == 'public-demo');
-      allow create: if (isAuthenticated() && request.resource.data.ownerId == request.auth.uid && isValidCampaign(request.resource.data)) ||
-                       (request.resource.data.ownerId == 'public-demo' && isValidCampaign(request.resource.data));
-      allow update: if ((isAuthenticated() && resource.data.ownerId == request.auth.uid && request.resource.data.ownerId == request.auth.uid) ||
-                       (resource.data.ownerId == 'public-demo' && request.resource.data.ownerId == 'public-demo')) &&
-                       isValidCampaign(request.resource.data);
-      allow delete: if (isAuthenticated() && resource.data.ownerId == request.auth.uid) ||
-                       (resource.data.ownerId == 'public-demo');
+      allow get: if isSignedIn() && isValidId(campaignId) && existing().ownerId == request.auth.uid;
+      allow list: if isSignedIn() && resource.data.ownerId == request.auth.uid;
+      allow create: if isSignedIn() && isValidId(campaignId) && isValidCampaign(incoming());
+      allow update: if isSignedIn() && isValidId(campaignId) && isValidCampaign(incoming()) &&
+                       existing().ownerId == request.auth.uid && incoming().ownerId == existing().ownerId;
+      allow delete: if isSignedIn() && isValidId(campaignId) && existing().ownerId == request.auth.uid;
     }
 
     match /jobs/{jobId} {
-      allow read: if (isAuthenticated() && resource.data.ownerId == request.auth.uid) ||
-                     (resource != null && resource.data.ownerId == 'public-demo');
-      allow create: if ((isAuthenticated() && request.resource.data.ownerId == request.auth.uid) ||
-                       (request.resource.data.ownerId == 'public-demo')) &&
-                       isValidJob(request.resource.data);
-      allow update: if ((isAuthenticated() && resource.data.ownerId == request.auth.uid && request.resource.data.ownerId == request.auth.uid) ||
-                       (resource.data.ownerId == 'public-demo' && request.resource.data.ownerId == 'public-demo')) &&
-                       isValidJob(request.resource.data);
-      allow delete: if (isAuthenticated() && resource.data.ownerId == request.auth.uid) ||
-                       (resource.data.ownerId == 'public-demo');
+      allow get: if isSignedIn() && isValidId(jobId) && existing().ownerId == request.auth.uid;
+      allow list: if isSignedIn() && resource.data.ownerId == request.auth.uid;
+      allow create: if isSignedIn() && isValidId(jobId) && isValidJob(incoming());
+      allow update: if isSignedIn() && isValidId(jobId) && isValidJob(incoming()) &&
+                       existing().ownerId == request.auth.uid && incoming().ownerId == existing().ownerId;
+      allow delete: if isSignedIn() && isValidId(jobId) && existing().ownerId == request.auth.uid;
     }
   }
 }

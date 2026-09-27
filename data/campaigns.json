@@ -1,144 +1,2537 @@
 [
   {
-    "id": "camp_kona_aero_flagship",
-    "ownerId": "public-demo",
-    "brandName": "KONA AERO",
-    "productDescription": "Architectural matte-black titanium espresso and pour-over brewing system with precision thermal extraction and borosilicate glass carafe.",
-    "targetAudience": "Specialty coffee enthusiasts, industrial designers, and modern home baristas",
-    "campaignObjective": "Launch the KONA AERO flagship brewer with a tactile, sensory-driven commercial",
-    "creativeStyle": "Tactile Anamorphic Macro Cinematography, Warm Golden Rim Lighting, Obsidian & Amber Palette",
-    "durationSeconds": 12,
+    "id": "camp_muinz7ws",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "brandName": "genmedia",
+    "productDescription": "generate ad for genmedia, captured with tactile surface micro-contrast, natural specular highlights, and 85mm anamorphic shallow depth of field.",
+    "targetAudience": "gemini",
+    "campaignObjective": "google",
+    "creativeStyle": "Cinematic luxury Arabian perfume commercial. Black and gold color palette, warm golden desert lighting, elegant Arabic-inspired architecture, drifting incense smoke, floating golden dust particles, rich shadows, slow-motion product shots, smooth camera movements, macro close-ups, realistic reflections, and premium commercial cinematography. Maintain the same perfume bottle design, label, cap, and colors in every scene. All voiceovers and spoken dialogue must be in Arabic only, using a sophistica",
+    "durationSeconds": 30,
     "aspectRatio": "16:9",
-    "language": "English",
+    "language": "Telugu",
     "status": "completed",
     "plan": {
-      "creativeConcept": "The Architecture of Essence: A cinematic exploration of the intersection between industrial engineering and the sensory ritual of coffee brewing.",
-      "campaignMessage": "KONA AERO: Precision Engineered. Sensory Refined.",
+      "creativeConcept": "The Essence of Golden Sands: A sensory journey through a luxury Arabian landscape, focusing on the interplay of light and shadow on the genmedia perfume bottle.",
+      "campaignMessage": "Experience the infinite elegance of light and scent with genmedia.",
       "visualIdentity": {
         "colorPalette": [
           "Obsidian Black (#0A0A0A)",
-          "Amber Gold (#FFBF00)",
-          "Burnt Sienna (#8B4513)",
-          "Titanium Grey (#2F2F2F)"
+          "Desert Gold (#D4AF37)",
+          "Warm Sand (#C2B280)",
+          "Deep Amber (#FFBF00)"
         ],
-        "lightingStyle": "High-contrast chiaroscuro with intense warm golden rim lighting and deep shadows to emphasize texture.",
-        "lensAndFraming": "40mm Anamorphic Macro, shallow depth of field (f/1.4), horizontal lens flares, and extreme close-ups.",
-        "continuityAnchors": "Micro-etched matte-black titanium surface, borosilicate glass transparency, and the signature amber-hued coffee bloom."
+        "lightingStyle": "Warm golden desert lighting with high-contrast shadows and natural specular highlights.",
+        "lensAndFraming": "85mm anamorphic lens, shallow depth of field (f/1.4), macro close-ups and wide cinematic vistas.",
+        "continuityAnchors": "Cylindrical obsidian black glass bottle, gold-embossed 'genmedia' label, heavy faceted gold cap, tactile surface micro-contrast."
       },
-      "musicalMood": "Sophisticated, atmospheric industrial-jazz with deep cello bass notes and metallic percussive textures.",
-      "soundtrackPrompt": "A deep, resonant cello solo layered with the tactile sounds of metal clicking, water sizzling, and low-frequency cinematic pulses. Atmospheric and premium."
+      "musicalMood": "Sophisticated Arabic Oud and Cello fusion with a deep, rhythmic bass and ethereal atmospheric pads.",
+      "soundtrackPrompt": "Cinematic Arabic luxury soundtrack, deep oud melodies, slow-tempo rhythmic percussion, ethereal desert wind textures, sophisticated and premium feel."
     },
     "scenes": [
       {
-        "id": "scene_1_muhywxe0",
+        "id": "scene_1_muinzf4m",
         "sceneNumber": 1,
-        "title": "The Titanium Core",
-        "durationSeconds": 4,
-        "imagePrompt": "Macro anamorphic shot of KONA AERO matte-black titanium surface, micro-etched textures catching warm golden rim light, obsidian black background, amber light reflections, professional product photography.",
-        "videoPrompt": "Extreme macro glide over the matte-black titanium surface of the KONA AERO. Warm golden rim light dances across the micro-etched metal grooves. Cinematic anamorphic lens flares in amber. High contrast, 4k.. Director Edit: Make the lighting warmer golden hour with richer rising steam and a smooth orbital pan right",
-        "cameraMovement": "Orbital Pan Right",
-        "audioDirection": "Metallic 'shing' sound of polished titanium, deep ambient hum.",
+        "title": "The Desert Awakening",
+        "durationSeconds": 6,
+        "imagePrompt": "85mm anamorphic wide shot of rolling golden sand dunes at sunrise. The genmedia obsidian black bottle with gold cap is partially submerged in the sand. Tactile surface micro-contrast on the glass. Natural specular highlights from the sun. Color palette: Obsidian Black, Desert Gold.",
+        "videoPrompt": "Cinematic slow motion. Wind blows fine golden sand particles across the base of the genmedia bottle. The sand follows fluid dynamics, swirling in eddies around the obsidian glass. Heat haze causes subtle refraction in the background.",
+        "cameraMovement": "Slow push-in towards the bottle.",
+        "audioDirection": "Sound of wind whistling through dunes, low-frequency sub-bass swell.",
         "transitionType": "fade",
-        "overlayText": "TITANIUM PRECISION",
+        "overlayText": "అంతులేని గాంభీర్యం",
         "approved": true,
         "status": "video_ready",
-        "versionHistory": [
-          {
-            "version": 1,
-            "timestamp": "2026-09-26T05:48:19.845Z",
-            "instruction": "Initial scene video generation",
-            "imageUrl": "/assets/images/scene_1_muhywxe0_1790401651650.jpg",
-            "videoUrl": "/assets/videos/scene_1_muhywxe0_v1_1790401699604.mp4",
-            "cameraMovement": "Slow horizontal tracking shot from left to right.",
-            "videoPrompt": "Extreme macro glide over the matte-black titanium surface of the KONA AERO. Warm golden rim light dances across the micro-etched metal grooves. Cinematic anamorphic lens flares in amber. High contrast, 4k.",
-            "directorNotes": "Generated native video clip via gemini-omni-1.1-flash (Slow horizontal tracking shot from left to right.)",
-            "interactionId": "v1_ChdubHkzYXZTNE90cm5xZmtQdEt1Y21BNBIXbmx5M2F2UzRPdHJucWZrUHRLdWNtQTQ"
-          }
-        ],
-        "imageUrl": "/assets/images/scene_1_muhywxe0_1790401651650.jpg",
-        "imageModelUsed": "gemini-3.1-flash-lite-image",
-        "videoUrl": "/assets/videos/scene_1_muhywxe0_v2_1790401770495.mp4",
-        "videoModelUsed": "gemini-omni-1.1-flash",
-        "interactionId": "v1_ChdubHkzYXZTNE90cm5xZmtQdEt1Y21BNBIXNWx5M2F1Ni1OcnVkNC1FUHBleXQtQXc",
-        "directorNotes": "Applied edit via gemini-omni-1.1-flash: \"Make the lighting warmer golden hour with richer rising steam and a smooth orbital pan right\""
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "rawVideoUrl": "/assets/videos/scene_1_scene_1_muinzf4m_raw_1790446667732.mp4",
+        "videoUrl": "/assets/videos/scene_1_scene_1_muinzf4m_auto_1790446667732.mp4",
+        "subtitlesBurnedIn": true
       },
       {
-        "id": "scene_2_muhywxe0",
+        "id": "scene_2_muinzf4m",
         "sceneNumber": 2,
-        "title": "The Thermal Bloom",
-        "durationSeconds": 4,
-        "imagePrompt": "Close-up of coffee blooming inside a borosilicate glass carafe, amber liquid swirling against a matte-black titanium filter, golden steam rising, obsidian palette, anamorphic bokeh.",
-        "videoPrompt": "Slow motion capture of coffee grounds blooming under hot water. Amber liquid cascades down the borosilicate glass. The matte-black titanium frame is visible in the periphery with golden rim lighting. Steam swirls in the highlights.",
-        "cameraMovement": "Slow vertical crane shot upwards.",
-        "audioDirection": "Crisp, wet sizzling and bubbling sounds, rising melodic cello.",
-        "transitionType": "fade",
-        "overlayText": "THERMAL EXTRACTION",
+        "title": "The Architectural Arch",
+        "durationSeconds": 6,
+        "imagePrompt": "Elegant Arabic-inspired marble architecture with a pointed arch. The genmedia bottle sits on a black marble pedestal. Drifting incense smoke in the background. 85mm anamorphic, shallow depth of field. Lighting: Warm side-lighting creating rich shadows.",
+        "videoPrompt": "Slow-motion incense smoke rising with realistic thermal convection and turbulence. The smoke drifts through the golden light beams, casting soft shadows on the black glass of the genmedia bottle.",
+        "cameraMovement": "Slow tracking shot from left to right.",
+        "audioDirection": "Traditional Arabic Oud melody starts softly.",
+        "transitionType": "dissolve",
+        "overlayText": "అత్యున్నత కళాఖండం",
         "approved": true,
         "status": "video_ready",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
         "versionHistory": [],
-        "imageUrl": "/assets/images/scene_2_muhywxe0_1790401655710.jpg",
-        "imageModelUsed": "gemini-3.1-flash-lite-image",
-        "videoUrl": "/assets/videos/scene_2_muhywxe0_v1_1790401812580.mp4",
-        "videoModelUsed": "gemini-omni-1.1-flash",
-        "interactionId": "v1_ChdEMTIzYXZqakZwU0pnOFVQeHVuaS1BNBIXRDEyM2F2ampGcFNKZzhVUHh1bmktQTQ",
-        "directorNotes": "Generated native video clip via gemini-omni-1.1-flash (Slow vertical crane shot upwards.)"
+        "rawVideoUrl": "/assets/videos/scene_2_scene_2_muinzf4m_raw_1790446672408.mp4",
+        "videoUrl": "/assets/videos/scene_2_scene_2_muinzf4m_auto_1790446672408.mp4",
+        "subtitlesBurnedIn": true
       },
       {
-        "id": "scene_3_muhywxe0",
+        "id": "scene_3_muinzf4m",
         "sceneNumber": 3,
-        "title": "The KONA Silhouette",
-        "durationSeconds": 4,
-        "imagePrompt": "Full silhouette of the KONA AERO brewing system on a dark reflective surface, glowing amber rim light defining the architectural matte-black shape, borosilicate glass carafe filled with coffee at the base.",
-        "videoPrompt": "Pull back reveal of the entire KONA AERO system. The matte-black titanium body is sculpted by a singular, intense golden rim light against an obsidian void. Reflection on the base is amber and rich.",
-        "cameraMovement": "Slow dolly-out and zoom-out.",
-        "audioDirection": "Final resonant bass note, the sound of a glass carafe touching a stone surface.",
+        "title": "The Golden Detail",
+        "durationSeconds": 6,
+        "imagePrompt": "Macro close-up of the genmedia gold-embossed label and the faceted gold cap. Extreme tactile micro-contrast on the metal texture. Floating golden dust particles in the air. 85mm anamorphic lens. Color palette: Gold, Deep Amber.",
+        "videoPrompt": "Macro video of light reflecting off the faceted gold cap. Specular light refraction shifts as the camera moves. Floating dust particles move with realistic Brownian motion in the light rays.",
+        "cameraMovement": "Extreme close-up panning across the gold label.",
+        "audioDirection": "Subtle metallic chime, crisp and clear.",
         "transitionType": "fade",
-        "overlayText": "KONA AERO. THE ART OF THE BREW.",
+        "overlayText": "స్వచ్ఛమైన సౌందర్యం",
         "approved": true,
         "status": "video_ready",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
         "versionHistory": [],
-        "imageUrl": "/assets/images/scene_3_muhywxe0_1790401659338.jpg",
-        "imageModelUsed": "gemini-3.1-flash-lite-image",
-        "videoUrl": "/assets/videos/scene_3_muhywxe0_v1_1790401854273.mp4",
-        "videoModelUsed": "gemini-omni-1.1-flash",
-        "interactionId": "v1_ChdPbDIzYXVfcUg0UEZnOFVQOXVHWHdBOBIXT2wyM2F1X3FINFBGZzhVUDl1R1h3QTg",
-        "directorNotes": "Generated native video clip via gemini-omni-1.1-flash (Slow dolly-out and zoom-out.)"
+        "rawVideoUrl": "/assets/videos/scene_3_scene_3_muinzf4m_raw_1790446676974.mp4",
+        "videoUrl": "/assets/videos/scene_3_scene_3_muinzf4m_auto_1790446676974.mp4",
+        "subtitlesBurnedIn": true
+      },
+      {
+        "id": "scene_4_muinzf4m",
+        "sceneNumber": 4,
+        "title": "Atmospheric Mist",
+        "durationSeconds": 6,
+        "imagePrompt": "85mm anamorphic shot of the genmedia bottle. Fine mist droplets are being sprayed around the bottle, catching the golden hour light. Rich shadows and realistic reflections on the obsidian glass surface.",
+        "videoPrompt": "Ultra slow-motion spray of perfume. Fluid dynamics of the fine mist as it disperses into the air. Water droplets show realistic light refraction and inertia as they settle on the bottle's surface.",
+        "cameraMovement": "Slow pull-back to reveal the full bottle.",
+        "audioDirection": "Deep rhythmic Arabic percussion starts.",
+        "transitionType": "fade",
+        "overlayText": "కాలానికి అతీతమైన సువాసన",
+        "approved": true,
+        "status": "video_ready",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "rawVideoUrl": "/assets/videos/scene_4_scene_4_muinzf4m_raw_1790446681595.mp4",
+        "videoUrl": "/assets/videos/scene_4_scene_4_muinzf4m_auto_1790446681595.mp4",
+        "subtitlesBurnedIn": true
+      },
+      {
+        "id": "scene_5_muinzf4m",
+        "sceneNumber": 5,
+        "title": "The Final Reveal",
+        "durationSeconds": 6,
+        "imagePrompt": "Centrally framed genmedia bottle on a polished black marble surface reflecting the gold cap. Golden desert light from behind creates a rim light effect. 85mm anamorphic, cinematic luxury. Color palette: Black and Gold.",
+        "videoPrompt": "The liquid inside the genmedia bottle swirls gently with realistic inertia as the bottle settles. The reflection on the marble surface matches the bottle's movements perfectly. Final cinematic glimmer on the gold cap.",
+        "cameraMovement": "Static shot with a subtle zoom-in.",
+        "audioDirection": "Final oud flourish, sophisticated Arabic whisper: 'genmedia'.",
+        "transitionType": "fade",
+        "overlayText": "genmedia - మీ పరిమళం",
+        "approved": true,
+        "status": "video_ready",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "rawVideoUrl": "/assets/videos/scene_5_scene_5_muinzf4m_raw_1790446686473.mp4",
+        "videoUrl": "/assets/videos/scene_5_scene_5_muinzf4m_auto_1790446686473.mp4",
+        "subtitlesBurnedIn": true
       }
     ],
     "soundtrack": {
-      "mood": "Sophisticated, atmospheric industrial-jazz with deep cello bass notes and metallic percussive textures.",
-      "prompt": "A deep, resonant cello solo layered with the tactile sounds of metal clicking, water sizzling, and low-frequency cinematic pulses. Atmospheric and premium.",
+      "mood": "Energetic Synthwave",
+      "prompt": "High-energy synthwave with driving basslines, bright neon synthesizers, and rhythmic 80s-inspired electronic drums.",
       "status": "ready",
-      "audioUrl": "/assets/audio/soundtrack_camp_kona_aero_flagship_1790401893612.mp3",
-      "modelUsed": "lyria-3.5",
-      "generatedLyricsOrNotes": "[[A0]]\n[:] (Mmm...)\n[:] (Kona Aero...)\n[:] (Ssh...)\n[[B1]]\n[:] (Aero...)\n[:] (Hoo...)\n[:] (Kona...)\n[[C2]]\n[:] (Prepare...)\n[:] (Ahhh!)\n[[D3]]\n[:] KONA AERO!\n[:] (Ahhhhhh...)\n[:] KONA AERO!\n[:] (Ohhhhhh...)\n[[B4]]\n[:] (Sensing...)\n[:] (Kona...)\n[:] (Focus...)\n[[D5]]\n[:] KONA AERO!\n[:] (Ahhhhhh...)\n[:] KONA AERO!\n[:] (Ohhhhhh...)\n[[E6]]\n[:] (Kona...)\n[:] (Aero...)\n[:] (Mmm...)\n[:] (Ssh...)",
       "includeInFinalMix": true,
       "volumeLevel": 0.85,
-      "history": []
+      "history": [],
+      "audioUrl": "/assets/audio/soundtrack_camp_muinz7ws_1790446663101.mp3",
+      "modelUsed": "lyria-3.5",
+      "generatedLyricsOrNotes": "Adaptive Energetic Synthwave commercial score for genmedia (lyria-3.5)."
     },
     "finalRender": {
       "status": "completed",
-      "videoUrl": "/assets/renders/ad_camp_kona_aero_flagship_1790401902830.mp4",
-      "renderedAt": "2026-09-26T05:51:43.222Z",
+      "videoUrl": "/assets/renders/ad_camp_muinz7ws_1790446695402.mp4",
+      "renderedAt": "2026-09-26T18:18:16.334Z",
       "resolution": "1280x720",
       "fps": 24,
-      "durationSeconds": 12,
-      "fileSizeBytes": 2581189,
-      "ffmpegCommandLog": "ffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_1_muhywxe0_v2_1790401770495.mp4 -t 4 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='TITANIUM PRECISION':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/seg_00.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_2_muhywxe0_v1_1790401812580.mp4 -t 4 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='THERMAL EXTRACTION':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/seg_01.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_3_muhywxe0_v1_1790401854273.mp4 -t 4 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='KONA AERO. THE ART OF THE BREW.':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/seg_02.mp4\n\nffmpeg -y -f concat -safe 0 -i /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/concat_list.txt -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/concatenated_video.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_kona_aero_flagship_1790401893629/concatenated_video.mp4 -stream_loop -1 -i /app/applet/public/assets/audio/soundtrack_camp_kona_aero_flagship_1790401893612.mp3 -t 12 -filter:a volume=0.85,afade=t=in:st=0:d=0.6,afade=t=out:st=10.50:d=1.4 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -shortest /app/applet/public/assets/renders/ad_camp_kona_aero_flagship_1790401902830.mp4",
+      "durationSeconds": 30,
+      "fileSizeBytes": 1487539,
+      "ffmpegCommandLog": "ffmpeg -y -loop 1 -i /app/applet/public/verified_samples/verified_image_gemini-3.1-flash-lite-image.jpg -vf scale=2560:1440:force_original_aspect_ratio=increase,crop=2560:1440,zoompan=z='min(zoom+0.0012,1.18)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=144:s=1280x720:fps=24,format=yuv420p -t 6 -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p -movflags +faststart /app/applet/public/assets/videos/scene_1_scene_1_muinzf4m_raw_1790446667732.mp4\n\nffmpeg -y -i /app/applet/public/assets/videos/scene_1_scene_1_muinzf4m_raw_1790446667732.mp4 -t 6 -vf scale=1280:720,fps=24,format=yuv420p,ass=/tmp/sub_1790446667732_kr9dwy.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muinz7ws_1790446667728/seg_00.mp4\n\nffmpeg -y -loop 1 -i /app/applet/public/verified_samples/verified_image_gemini-3.1-flash-lite-image.jpg -vf scale=2560:1440:force_original_aspect_ratio=increase,crop=2560:1440,zoompan=z='1.12':x='(iw-iw/zoom)*(on/144)':y='ih/2-(ih/zoom/2)':d=144:s=1280x720:fps=24,format=yuv420p -t 6 -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p -movflags +faststart /app/applet/public/assets/videos/scene_2_scene_2_muinzf4m_raw_1790446672408.mp4\n\nffmpeg -y -i /app/applet/public/assets/videos/scene_2_scene_2_muinzf4m_raw_1790446672408.mp4 -t 6 -vf scale=1280:720,fps=24,format=yuv420p,ass=/tmp/sub_1790446672407_ahca7r.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muinz7ws_1790446667728/seg_01.mp4\n\nffmpeg -y -loop 1 -i /app/applet/public/verified_samples/verified_image_gemini-3.1-flash-lite-image.jpg -vf scale=2560:1440:force_original_aspect_ratio=increase,crop=2560:1440,zoompan=z='min(zoom+0.0012,1.18)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=144:s=1280x720:fps=24,format=yuv420p -t 6 -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p -movflags +faststart /app/applet/public/assets/videos/scene_3_scene_3_muinzf4m_raw_1790446676974.mp4\n\nffmpeg -y -i /app/applet/public/assets/videos/scene_3_scene_3_muinzf4m_raw_1790446676974.mp4 -t 6 -vf scale=1280:720,fps=24,format=yuv420p,ass=/tmp/sub_1790446676974_slrvq3.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muinz7ws_1790446667728/seg_02.mp4\n\nffmpeg -y -loop 1 -i /app/applet/public/verified_samples/verified_image_gemini-3.1-flash-lite-image.jpg -vf scale=2560:1440:force_original_aspect_ratio=increase,crop=2560:1440,zoompan=z='if(eq(on,1),1.18,max(1.0,zoom-0.0012))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=144:s=1280x720:fps=24,format=yuv420p -t 6 -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p -movflags +faststart /app/applet/public/assets/videos/scene_4_scene_4_muinzf4m_raw_1790446681595.mp4\n\nffmpeg -y -i /app/applet/public/assets/videos/scene_4_scene_4_muinzf4m_raw_1790446681595.mp4 -t 6 -vf scale=1280:720,fps=24,format=yuv420p,ass=/tmp/sub_1790446681595_i8z5x0.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muinz7ws_1790446667728/seg_03.mp4\n\nffmpeg -y -loop 1 -i /app/applet/public/verified_samples/verified_image_gemini-3.1-flash-lite-image.jpg -vf scale=2560:1440:force_original_aspect_ratio=increase,crop=2560:1440,zoompan=z='min(zoom+0.0012,1.18)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=144:s=1280x720:fps=24,format=yuv420p -t 6 -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p -movflags +faststart /app/applet/public/assets/videos/scene_5_scene_5_muinzf4m_raw_1790446686473.mp4\n\nffmpeg -y -i /app/applet/public/assets/videos/scene_5_scene_5_muinzf4m_raw_1790446686473.mp4 -t 6 -vf scale=1280:720,fps=24,format=yuv420p,ass=/tmp/sub_1790446686472_f98ths.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muinz7ws_1790446667728/seg_04.mp4\n\nffmpeg -y -f concat -safe 0 -i /app/applet/public/assets/temp/camp_muinz7ws_1790446667728/concat_list.txt -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muinz7ws_1790446667728/concatenated_video.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_muinz7ws_1790446667728/concatenated_video.mp4 -stream_loop -1 -i /app/applet/public/assets/audio/soundtrack_camp_muinz7ws_1790446663101.mp3 -i /app/applet/public/assets/audio/vo_camp_muinz7ws_1790446667629.mp3 -t 30 -filter_complex [1:a]volume=0.47,afade=t=in:st=0:d=0.6,afade=t=out:st=28.50:d=1.4[bg];[2:a]volume=1.15,apad=whole_dur=30[vo];[bg][vo]amix=inputs=2:duration=first:dropout_transition=2[aout] -map 0:v:0 -map [aout] -c:v copy -c:a aac -b:a 192k -shortest /app/applet/public/assets/renders/ad_camp_muinz7ws_1790446695402.mp4",
       "validationReport": {
         "valid": true,
         "videoCodec": "h264",
         "audioCodec": "aac",
         "width": 1280,
         "height": 720,
-        "durationSeconds": 12,
-        "frameCount": 288,
+        "durationSeconds": 30,
+        "frameCount": 720,
         "hasAudioStream": true,
-        "fileSizeBytes": 2581189,
-        "checkedAt": "2026-09-26T05:51:43.219Z"
+        "fileSizeBytes": 1487539,
+        "checkedAt": "2026-09-26T18:18:16.434Z"
       }
     },
-    "createdAt": "2026-09-26T05:51:43.222Z",
-    "updatedAt": "2026-09-26T05:51:43.222Z"
+    "createdAt": "2026-09-26T17:29:15.094Z",
+    "updatedAt": "2026-09-26T18:18:16.439Z",
+    "referenceImageUrl": "",
+    "localizedVariants": [],
+    "orchestrationState": {
+      "runId": "run_muipowut",
+      "campaignId": "camp_muinz7ws",
+      "mode": "selective_modification",
+      "userPrompt": "Change the voiceover script and musical score to an energetic synthwave vibe and re-render the commercial",
+      "intentSummary": "Update the musical score to energetic synthwave and regenerate the voiceover script across all scenes.",
+      "spokenResponse": "Your requested update for genmedia is complete and verified. The updated 30-second master MP4 is ready to preview.",
+      "status": "completed",
+      "overallProgress": 100,
+      "activeStageKey": "quality_checks",
+      "affectedScopes": [
+        "voiceover",
+        "music"
+      ],
+      "tasks": [
+        {
+          "id": "task_orchestrator_intent",
+          "agentId": "orchestrator",
+          "agentName": "Central Orchestrator Agent",
+          "stageKey": "prompt_analysis",
+          "title": "Selective Delta Impact Analysis",
+          "description": "Isolated modification scope (voiceover, music) to preserve unaffected campaign assets.",
+          "modelId": "gemini-3-flash-preview",
+          "dependencies": [],
+          "status": "completed",
+          "progress": 100,
+          "retries": 0,
+          "maxRetries": 2,
+          "affectedSceneNumbers": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "outputSummary": "Update the musical score to energetic synthwave and regenerate the voiceover script across all scenes.",
+          "startedAt": "2026-09-26T18:17:04.086Z",
+          "completedAt": "2026-09-26T18:17:04.086Z",
+          "latencyMs": 260
+        },
+        {
+          "id": "task_audio_generation",
+          "agentId": "audio_generator",
+          "agentName": "Lyria Score & Voiceover Agent",
+          "stageKey": "music_voiceover",
+          "title": "Selective Lyria 3.5 Soundtrack Replacement",
+          "description": "Synthesizing updated audio track while preserving all existing scene video clips.",
+          "modelId": "lyria-3.5 + gemini-3.8-flash-lite-tts",
+          "dependencies": [
+            "task_orchestrator_intent"
+          ],
+          "status": "completed",
+          "progress": 100,
+          "retries": 0,
+          "maxRetries": 2,
+          "startedAt": "2026-09-26T18:17:04.091Z",
+          "completedAt": "2026-09-26T18:17:47.713Z",
+          "latencyMs": 43622,
+          "outputSummary": "Score ready (Energetic Synthwave via lyria-3.5) + Voiceover scripted"
+        },
+        {
+          "id": "task_rendering",
+          "agentId": "renderer",
+          "agentName": "Master Assembly & Audio Mix Agent",
+          "stageKey": "final_export",
+          "title": "Delta Master MP4 Re-Assembly",
+          "description": "Re-assembling 24fps H.264/AAC master commercial with updated components.",
+          "modelId": "ffmpeg-static",
+          "dependencies": [
+            "task_orchestrator_intent",
+            "task_audio_generation"
+          ],
+          "status": "completed",
+          "progress": 100,
+          "retries": 0,
+          "maxRetries": 2,
+          "startedAt": "2026-09-26T18:17:47.720Z",
+          "completedAt": "2026-09-26T18:18:16.334Z",
+          "latencyMs": 28614,
+          "outputSummary": "Master MP4 assembled at /assets/renders/ad_camp_muinz7ws_1790446695402.mp4 (1280x720 @ 24fps, 30s)"
+        },
+        {
+          "id": "task_qa_inspection",
+          "agentId": "qa_inspector",
+          "agentName": "Quality Assurance & Stream Verifier",
+          "stageKey": "quality_checks",
+          "title": "Post-Render Stream & Codec Verification",
+          "description": "Validating updated MP4 container streams, duration, and frame integrity.",
+          "modelId": "ffprobe / ffmpeg-validator",
+          "dependencies": [
+            "task_rendering"
+          ],
+          "status": "completed",
+          "progress": 100,
+          "retries": 0,
+          "maxRetries": 2,
+          "startedAt": "2026-09-26T18:18:16.338Z",
+          "completedAt": "2026-09-26T18:18:16.434Z",
+          "latencyMs": 120,
+          "outputSummary": "Verified playable MP4: H264 + AAC, 1280x720, 720 frames (30s, 1453 KB)"
+        }
+      ],
+      "logs": [
+        {
+          "id": "log_1790446696438_onecq",
+          "timestamp": "2026-09-26T18:18:16.438Z",
+          "agentId": "orchestrator",
+          "agentName": "Central Orchestrator Agent",
+          "level": "success",
+          "message": "Your requested update for genmedia is complete and verified. The updated 30-second master MP4 is ready to preview."
+        },
+        {
+          "id": "log_1790446696438_dz2kp",
+          "timestamp": "2026-09-26T18:18:16.438Z",
+          "agentId": "orchestrator",
+          "agentName": "Central Orchestrator Agent",
+          "level": "checkpoint",
+          "message": "Checkpoint saved: Validated Broadcast MP4 Ready for Export"
+        },
+        {
+          "id": "log_1790446696434_7k4k8",
+          "timestamp": "2026-09-26T18:18:16.434Z",
+          "agentId": "qa_inspector",
+          "agentName": "Quality Assurance & Stream Verifier",
+          "level": "success",
+          "message": "Completed: Post-Render Stream & Codec Verification (0.1s)",
+          "detail": "Verified playable MP4: H264 + AAC, 1280x720, 720 frames (30s, 1453 KB)"
+        },
+        {
+          "id": "log_1790446696338_ksj2x",
+          "timestamp": "2026-09-26T18:18:16.338Z",
+          "agentId": "qa_inspector",
+          "agentName": "Quality Assurance & Stream Verifier",
+          "level": "action",
+          "message": "Started: Post-Render Stream & Codec Verification",
+          "detail": "Validating updated MP4 container streams, duration, and frame integrity."
+        },
+        {
+          "id": "log_1790446696334_ytn93",
+          "timestamp": "2026-09-26T18:18:16.334Z",
+          "agentId": "renderer",
+          "agentName": "Master Assembly & Audio Mix Agent",
+          "level": "success",
+          "message": "Completed: Delta Master MP4 Re-Assembly (28.6s)",
+          "detail": "Master MP4 assembled at /assets/renders/ad_camp_muinz7ws_1790446695402.mp4 (1280x720 @ 24fps, 30s)"
+        },
+        {
+          "id": "log_1790446667720_zuqx5",
+          "timestamp": "2026-09-26T18:17:47.720Z",
+          "agentId": "renderer",
+          "agentName": "Master Assembly & Audio Mix Agent",
+          "level": "action",
+          "message": "Started: Delta Master MP4 Re-Assembly",
+          "detail": "Re-assembling 24fps H.264/AAC master commercial with updated components."
+        },
+        {
+          "id": "log_1790446667717_fs0ye",
+          "timestamp": "2026-09-26T18:17:47.717Z",
+          "agentId": "orchestrator",
+          "agentName": "Central Orchestrator Agent",
+          "level": "checkpoint",
+          "message": "Checkpoint saved: Scene Motion Clips & Audio Tracks Ready"
+        },
+        {
+          "id": "log_1790446667713_lce2g",
+          "timestamp": "2026-09-26T18:17:47.713Z",
+          "agentId": "audio_generator",
+          "agentName": "Lyria Score & Voiceover Agent",
+          "level": "success",
+          "message": "Completed: Selective Lyria 3.5 Soundtrack Replacement (43.6s)",
+          "detail": "Score ready (Energetic Synthwave via lyria-3.5) + Voiceover scripted"
+        },
+        {
+          "id": "log_1790446624091_ezo7l",
+          "timestamp": "2026-09-26T18:17:04.091Z",
+          "agentId": "audio_generator",
+          "agentName": "Lyria Score & Voiceover Agent",
+          "level": "action",
+          "message": "Started: Selective Lyria 3.5 Soundtrack Replacement",
+          "detail": "Synthesizing updated audio track while preserving all existing scene video clips."
+        },
+        {
+          "id": "log_1790446624086_nc61a",
+          "timestamp": "2026-09-26T18:17:04.086Z",
+          "agentId": "orchestrator",
+          "agentName": "Central Orchestrator Agent",
+          "level": "info",
+          "message": "Orchestrator initialized (Selective Delta Modification)",
+          "detail": "I'm switching the soundtrack to an energetic synthwave vibe and updating the voiceover script to match. I'll get the new version rendered for you right away."
+        }
+      ],
+      "checkpoints": [
+        {
+          "id": "cp_final_export_muipqgom",
+          "timestamp": "2026-09-26T18:18:16.438Z",
+          "stageKey": "final_export",
+          "label": "Validated Broadcast MP4 Ready for Export",
+          "completedTaskIds": [
+            "task_orchestrator_intent",
+            "task_audio_generation",
+            "task_rendering",
+            "task_qa_inspection"
+          ],
+          "campaignStatus": "completed",
+          "resumable": true
+        },
+        {
+          "id": "cp_video_generation_muippuit",
+          "timestamp": "2026-09-26T18:17:47.717Z",
+          "stageKey": "video_generation",
+          "label": "Scene Motion Clips & Audio Tracks Ready",
+          "completedTaskIds": [
+            "task_orchestrator_intent",
+            "task_audio_generation"
+          ],
+          "campaignStatus": "video_production",
+          "resumable": true
+        }
+      ],
+      "startedAt": "2026-09-26T18:17:04.085Z",
+      "updatedAt": "2026-09-26T18:18:16.434Z",
+      "spokenAudioUrl": "/assets/audio/assistant_tts_camp_muinz7ws_1790446629694.mp3",
+      "completedAt": "2026-09-26T18:18:16.438Z"
+    },
+    "voiceover": {
+      "script": "Experience the future of fragrance. genmedia. Bold. Energetic. Unstoppable. Redefine your presence today.",
+      "voiceName": "Kore",
+      "status": "ready",
+      "audioUrl": "/assets/audio/vo_camp_muinz7ws_1790446667629.mp3",
+      "modelUsed": "gemini-3.8-flash-lite-tts"
+    }
+  },
+  {
+    "id": "camp_muin8m5q",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "brandName": "genmedia",
+    "productDescription": "generate ad for genmedia",
+    "targetAudience": "gemini",
+    "campaignObjective": "google",
+    "creativeStyle": "Cinematic luxury Arabian perfume commercial. Black and gold color palette, warm golden desert lighting, elegant Arabic-inspired architecture, drifting incense smoke, floating golden dust particles, rich shadows, slow-motion product shots, smooth camera movements, macro close-ups, realistic reflections, and premium commercial cinematography. Maintain the same perfume bottle design, label, cap, and colors in every scene. All voiceovers and spoken dialogue must be in Arabic only, using a sophistica",
+    "durationSeconds": 30,
+    "aspectRatio": "16:9",
+    "language": "Arabic",
+    "status": "scoring",
+    "plan": {
+      "creativeConcept": "The Essence of Influence: Genmedia portrayed as a luxury Arabian fragrance, blending the timeless beauty of desert heritage with the precision of modern AI media technology.",
+      "campaignMessage": "جين ميديا: سحر التأثير، دقة المستقبل",
+      "visualIdentity": {
+        "colorPalette": [
+          "#000000 (Obsidian Black)",
+          "#D4AF37 (24k Metallic Gold)",
+          "#8B4513 (Warm Oud Wood)",
+          "#FFD700 (Sunlit Sand)"
+        ],
+        "lightingStyle": "Chiaroscuro lighting with warm golden hour backlighting, rim lighting on glass surfaces, and soft diffused shadows.",
+        "lensAndFraming": "Anamorphic 35mm and 85mm macro lenses; shallow depth of field (f/1.8) for creamy bokeh.",
+        "continuityAnchors": "A rectangular obsidian-black glass perfume bottle with a heavy gold filigree cap and the 'genmedia' logo embossed in metallic gold Sans-serif and Arabic script."
+      },
+      "musicalMood": "Sophisticated Oud and Cello fusion with deep cinematic bass pulses and ethereal vocal pads.",
+      "soundtrackPrompt": "A slow, majestic blend of traditional Middle Eastern Oud melodies, cinematic orchestral strings, deep sub-bass drops, and the subtle sound of wind and sand."
+    },
+    "scenes": [
+      {
+        "id": "scene_1_muin8u1z",
+        "sceneNumber": 1,
+        "title": "The Desert Reveal",
+        "durationSeconds": 6,
+        "imagePrompt": "A rectangular obsidian-black glass perfume bottle with a gold genmedia logo half-buried in golden desert sand at sunset. 16:9, cinematic luxury photography, black and gold palette, warm backlight.",
+        "videoPrompt": "Slow-motion wind blowing fine golden sand particles away from the bottle, revealing the metallic gold genmedia logo. Realistic granular physics and sand ripples.",
+        "cameraMovement": "Low-angle tracking shot moving slowly toward the bottle.",
+        "audioDirection": "The sound of a soft desert breeze transitioning into a deep, resonant Oud note.",
+        "transitionType": "fade",
+        "overlayText": "أناقة الابتكار",
+        "approved": true,
+        "status": "image_ready",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "imageUrl": "/assets/images/scene_1_muin8u1z_1790442522141.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 3093,
+        "resolutionTag": "1K (1024px)"
+      },
+      {
+        "id": "scene_2_muin8u1z",
+        "sceneNumber": 2,
+        "title": "The Golden Crown",
+        "durationSeconds": 6,
+        "imagePrompt": "Extreme macro close-up of a 24k gold perfume bottle cap with intricate Arabic geometric engravings. Soft golden reflections on black glass. High-end product cinematography.",
+        "videoPrompt": "Light rays scanning across the gold surface, creating realistic specular reflections and lens flares. Small dust motes dancing in the light beams (Brownian motion).",
+        "cameraMovement": "Rotating macro orbit around the cap.",
+        "audioDirection": "High-frequency crystalline shimmer sound over rhythmic percussion.",
+        "transitionType": "fade",
+        "overlayText": "دقة لا متناهية",
+        "approved": true,
+        "status": "image_ready",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "imageUrl": "/assets/images/scene_2_muin8u1z_1790442527231.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 3879,
+        "resolutionTag": "1K (1024px)"
+      },
+      {
+        "id": "scene_3_muin8u1z",
+        "sceneNumber": 3,
+        "title": "The Archway Sanctuary",
+        "durationSeconds": 6,
+        "imagePrompt": "The genmedia bottle sitting on a black marble pedestal inside a luxury Arabic palace hall with golden arches and drifting incense smoke. Deep shadows, warm ambient light.",
+        "videoPrompt": "Slow-rising incense smoke swirling around the bottle using fluid dynamics. Soft golden particles floating in the air with realistic inertia.",
+        "cameraMovement": "Slow zoom-in (Dolly in).",
+        "audioDirection": "Echoing footsteps on marble followed by a sophisticated Arabic whisper: 'جين ميديا'.",
+        "transitionType": "fade",
+        "overlayText": "رؤية عالمية",
+        "approved": true,
+        "status": "image_ready",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "imageUrl": "/assets/images/scene_3_muin8u1z_1790442531536.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 3088,
+        "resolutionTag": "1K (1024px)"
+      },
+      {
+        "id": "scene_4_muin8u1z",
+        "sceneNumber": 4,
+        "title": "Liquid Gold",
+        "durationSeconds": 6,
+        "imagePrompt": "Macro view through the black glass bottle showing viscous golden liquid swirling inside. Light refracting through the glass and fluid. Hyper-realistic.",
+        "videoPrompt": "Internal fluid dynamics of a thick, amber-like liquid moving in slow motion. Realistic light refraction and caustic patterns hitting the inner walls of the bottle.",
+        "cameraMovement": "Static macro with internal focus pull.",
+        "audioDirection": "Deep, liquid bass swell and a subtle choral hum.",
+        "transitionType": "fade",
+        "overlayText": "قوة المحتوى",
+        "approved": true,
+        "status": "image_ready",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "imageUrl": "/assets/images/scene_4_muin8u1z_1790442535973.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 3234,
+        "resolutionTag": "1K (1024px)"
+      },
+      {
+        "id": "scene_5_muin8u1z",
+        "sceneNumber": 5,
+        "title": "The Final Signature",
+        "durationSeconds": 6,
+        "imagePrompt": "The full genmedia bottle centered against a minimalist black background with a golden halo. The Google logo appears subtly at the bottom in gold.",
+        "videoPrompt": "The bottle slowly settles as golden dust particles fall gently around it. A final shimmer of light passes over the logo. Zero-gravity particle settlement.",
+        "cameraMovement": "Slow pull-back to reveal the full composition.",
+        "audioDirection": "Final grand orchestral chord resolving into silence with the Google chime.",
+        "transitionType": "fade",
+        "overlayText": "جين ميديا.. فن الإعلان",
+        "approved": true,
+        "status": "image_ready",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "imageUrl": "/assets/images/scene_5_muin8u1z_1790442540065.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 2874,
+        "resolutionTag": "1K (1024px)"
+      }
+    ],
+    "soundtrack": {
+      "mood": "Sophisticated Oud and Cello fusion with deep cinematic bass pulses and ethereal vocal pads.",
+      "prompt": "A slow, majestic blend of traditional Middle Eastern Oud melodies, cinematic orchestral strings, deep sub-bass drops, and the subtle sound of wind and sand.",
+      "status": "ready",
+      "includeInFinalMix": true,
+      "volumeLevel": 0.85,
+      "history": [],
+      "audioUrl": "/assets/audio/soundtrack_camp_muin8m5q_1790443663882.mp3",
+      "modelUsed": "lyria-3-clip-preview",
+      "generatedLyricsOrNotes": "<instrumental>"
+    },
+    "finalRender": {
+      "status": "idle",
+      "ffmpegCommandLog": ""
+    },
+    "createdAt": "2026-09-26T17:08:34.727Z",
+    "updatedAt": "2026-09-26T17:27:44.593Z",
+    "referenceImageUrl": "",
+    "localizedVariants": []
+  },
+  {
+    "updatedAt": "2026-09-26T17:26:03.424Z",
+    "finalRender": {
+      "ffmpegCommandLog": "",
+      "status": "idle"
+    },
+    "durationSeconds": 30,
+    "aspectRatio": "16:9",
+    "scenes": [
+      {
+        "overlayText": "A Heritage Born in Gold",
+        "sceneNumber": 1,
+        "versionHistory": [],
+        "durationSeconds": 6,
+        "imagePrompt": "Cinematic wide shot of golden Arabian desert dunes at sunset, Obsidian Black and Royal Gold color palette, warm golden lighting, 35mm anamorphic lens, floating golden dust particles in the air.",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "status": "pending",
+        "approved": true,
+        "audioDirection": "Voiceover (Arabic): 'Min a'maq al-sahra...' (From the depths of the desert...). Sound of wind whistling softly through dunes.",
+        "transitionType": "fade",
+        "videoPrompt": "Slow forward tracking shot over sand dunes; realistic wind-blown sand ripples moving across the crests, fluid particle dynamics for floating golden dust, specular light refraction from the setting sun.",
+        "cameraMovement": "Slow push-in (Dolly forward)",
+        "id": "scene_1_muifmb8a",
+        "title": "The Desert Awakening"
+      },
+      {
+        "id": "scene_2_muifmb8a",
+        "title": "The Raw Essence",
+        "cameraMovement": "Slow vertical tilt up",
+        "transitionType": "fade",
+        "videoPrompt": "Rising thermal smoke dynamics, wisps of incense drifting upwards in slow motion, soft focus bokeh in the background, realistic smoke occlusion and light scattering.",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "audioDirection": "Voiceover (Arabic): 'Yataballur al-turath...' (Heritage crystallizes...). Deep, resonant Oud string vibration.",
+        "approved": true,
+        "sceneNumber": 2,
+        "overlayText": "Crafted from the Finest Oud",
+        "versionHistory": [],
+        "status": "pending",
+        "imagePrompt": "Macro close-up of dark, resinous oud wood pieces on a bed of black sand, wisps of white incense smoke curling around, warm golden rim lighting, 85mm macro lens, rich textures.",
+        "durationSeconds": 6
+      },
+      {
+        "imagePrompt": "Extreme close-up of the OUD AL AMEER bottle, matte black glass texture, intricate gold filigree label reflecting warm light, 85mm macro lens, dark shadows, premium finish.",
+        "title": "The Vessel of Luxury",
+        "overlayText": "Impeccable Craftsmanship",
+        "cameraMovement": "Panning orbit shot",
+        "audioDirection": "Voiceover (Arabic): 'Li-yusbih 'itran fakhiran...' (To become a luxurious fragrance...). Sound of a heavy metallic cap clicking.",
+        "sceneNumber": 3,
+        "transitionType": "fade",
+        "id": "scene_3_muifmb8a",
+        "status": "pending",
+        "approved": true,
+        "videoPrompt": "Light sweep across the gold label showing metallic reflection and texture, slow-motion rotation revealing the heavy gold cap, realistic specular highlights sliding across matte glass.",
+        "durationSeconds": 6,
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": []
+      },
+      {
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "status": "pending",
+        "id": "scene_4_muifmb8a",
+        "cameraMovement": "Static macro shot",
+        "transitionType": "fade",
+        "videoPrompt": "Fluid dynamics of amber liquid swirling with inertia, gold flakes dancing in the suspension, light refraction through the liquid creating caustic patterns on the background.",
+        "audioDirection": "Voiceover (Arabic): 'Lishakhsiyyah malakiyyah...' (For a royal personality...). Cinematic bass drop and orchestral swell.",
+        "durationSeconds": 6,
+        "title": "The Royal Sillage",
+        "versionHistory": [],
+        "approved": true,
+        "sceneNumber": 4,
+        "overlayText": "Unmistakably Royal",
+        "imagePrompt": "Golden perfume liquid swirling inside a glass chamber, macro view, amber and gold hues, floating gold flakes, high-contrast lighting, realistic fluid viscosity."
+      },
+      {
+        "approved": true,
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "id": "scene_5_muifmb8a",
+        "title": "The Grand Reveal",
+        "audioDirection": "Voiceover (Arabic): 'Oud Al Ameer. Jawharat al-muluk.' (Oud Al Ameer. The essence of royalty.). Final resonant Oud chord fades to silence.",
+        "transitionType": "fade",
+        "cameraMovement": "Slow pull-back (Dolly out)",
+        "videoPrompt": "Slow zoom out; smoke drifting elegantly around the bottle base, golden particles falling slowly, realistic reflections on the marble surface, final logo animation.",
+        "versionHistory": [],
+        "sceneNumber": 5,
+        "overlayText": "OUD AL AMEER: The Essence of Arabian Royalty",
+        "status": "pending",
+        "durationSeconds": 6,
+        "imagePrompt": "The OUD AL AMEER bottle standing upright on a polished black marble surface, desert dunes in the blurred background, golden incense smoke, centered composition, logo reveal."
+      }
+    ],
+    "language": "English",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "id": "camp_muifm1ei",
+    "createdAt": "2026-09-26T13:35:06.586Z",
+    "status": "planned",
+    "creativeStyle": "Cinematic luxury Arabian perfume commercial. Black and gold color palette, warm golden desert lighting, elegant Arabic-inspired architecture, drifting incense smoke, floating golden dust particles, rich shadows, slow-motion product shots, smooth camera movements, macro close-ups, realistic reflections, and premium commercial cinematography. Maintain the same perfume bottle design, label, cap, and colors in every scene. All voiceovers and spoken dialogue must be in Arabic only, using a sophistica",
+    "productDescription": "\"Create a luxurious cinematic advertisement for OUD AL AMEER, a premium Arabic oud perfume brand. Feature an elegant black and gold perfume bottle surrounded by rich oud wood, golden Arabian desert dunes, and soft drifting incense smoke. Use warm golden lighting, sophisticated camera movements, and a royal Middle Eastern aesthetic. Highlight the bottle's craftsmanship and the richness of the fragrance. The mood should feel luxurious, mysterious, and timeless. End with the brand name OUD AL AMEER and the tagline: 'The Essence of Arabian Royalty.'\"",
+    "targetAudience": "Luxury fragrance enthusiasts, premium perfume buyers, and people who appreciate Arabian oud, elegance, and sophisticated fragrances.",
+    "plan": {
+      "visualIdentity": {
+        "continuityAnchors": "Matte black rectangular glass bottle, intricate 18k gold filigree label, heavy cylindrical gold cap with engraved OUD AL AMEER logo.",
+        "lightingStyle": "Dramatic Chiaroscuro with warm golden hour backlighting, high-contrast shadows, and glowing amber highlights.",
+        "colorPalette": [
+          "#0A0A0A (Obsidian Black)",
+          "#D4AF37 (Royal Gold)",
+          "#C2B280 (Desert Sand)",
+          "#4B3621 (Dark Oud Wood)"
+        ],
+        "lensAndFraming": "Anamorphic 85mm macro for product details and 35mm wide-angle for cinematic desert vistas; shallow depth of field."
+      },
+      "campaignMessage": "The Essence of Arabian Royalty",
+      "soundtrackPrompt": "A blend of traditional Oud plucking and modern cinematic strings, deep orchestral percussion, subtle wind foley, and the ethereal sound of drifting incense smoke.",
+      "creativeConcept": "The Legacy of Liquid Gold: A journey from the raw, elemental beauty of the Arabian desert to the refined, regal sophistication of OUD AL AMEER perfume.",
+      "musicalMood": "Sophisticated Middle Eastern orchestral fusion featuring a haunting solo Oud melody, cinematic sub-bass swells, and atmospheric desert wind textures."
+    },
+    "campaignObjective": "Create a premium cinematic advertisement that showcases the elegance, richness, and heritage of OUD AL AMEER. Build emotional desire for the fragrance and establish the brand as a symbol of Arabian luxury. End with a memorable Arabic voiceover and a premium brand reveal.",
+    "soundtrack": {
+      "mood": "Sophisticated Middle Eastern orchestral fusion featuring a haunting solo Oud melody, cinematic sub-bass swells, and atmospheric desert wind textures.",
+      "status": "idle",
+      "includeInFinalMix": true,
+      "history": [],
+      "prompt": "A blend of traditional Oud plucking and modern cinematic strings, deep orchestral percussion, subtle wind foley, and the ethereal sound of drifting incense smoke.",
+      "volumeLevel": 0.85
+    },
+    "localizedVariants": [],
+    "brandName": "OUD AL AMEER",
+    "referenceImageUrl": ""
+  },
+  {
+    "plan": {
+      "creativeConcept": "The Sovereign's Trail: A cinematic journey from the shifting golden sands of the Arabian desert to the refined elegance of a royal palace, tracing the olfactory path of Oud Al Ameer through light, shadow, and smoke.",
+      "musicalMood": "Epic, mysterious, and regal orchestral arrangement with traditional Arabic Oud strings and deep cinematic percussion.",
+      "campaignMessage": "جوهر الفخامة العربية (The Essence of Arabian Royalty)",
+      "visualIdentity": {
+        "lensAndFraming": "Anamorphic widescreen 16:9, utilizing 100mm macro lenses for product detail and 35mm wide-angle for environmental grandeur.",
+        "continuityAnchors": "The OUD AL AMEER bottle: a matte obsidian black cylindrical vessel with a heavy weighted gold filigree cap and a gold-embossed Arabic label centered on the front.",
+        "colorPalette": [
+          "Obsidian Black (#000000)",
+          "Royal Gold (#D4AF37)",
+          "Deep Amber (#B87333)",
+          "Desert Sand (#EDC9AF)"
+        ],
+        "lightingStyle": "Chiaroscuro lighting with high-contrast shadows and 2700K warm golden rim light highlighting the perfume bottle's silhouette."
+      },
+      "soundtrackPrompt": "A blend of deep cello swells and a soulful solo Oud melody, layered with atmospheric desert wind textures and a rhythmic heartbeat of Taiko drums. Ends with a resonant, low-frequency 'thud' as the logo appears."
+    },
+    "campaignObjective": "Create a premium cinematic advertisement that showcases the elegance, richness, and heritage of OUD AL AMEER. Build emotional desire for the fragrance and establish the brand as a symbol of Arabian luxury. End with a memorable Arabic voiceover and a premium brand reveal.",
+    "scenes": [
+      {
+        "approved": true,
+        "videoPrompt": "Camera pans slowly across the dunes. Granular physics: thousands of individual sand particles tumbling down the lee side of a dune, creating a fluid-like motion. Sunlight refractions changing as the camera moves.",
+        "title": "The Golden Desert Awakening",
+        "versionHistory": [],
+        "durationSeconds": 6,
+        "transitionType": "fade",
+        "imagePrompt": "Cinematic wide shot of golden Arabian desert dunes at sunset. Soft wind blowing sand. Warm golden light #D4AF37 hitting the crests. 16:9 aspect ratio, 8k resolution, photorealistic.",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "audioDirection": "The soft whistle of desert wind and a deep, resonant Oud string pluck.",
+        "cameraMovement": "Slow lateral tracking shot from left to right.",
+        "id": "scene_1_muiflq3t",
+        "status": "pending",
+        "sceneNumber": 1,
+        "overlayText": "من أعماق الصحراء (From the depths of the desert)"
+      },
+      {
+        "approved": true,
+        "versionHistory": [],
+        "videoPrompt": "Rising thermal steam dynamics: incense smoke rising in a delicate laminar flow, then breaking into turbulent swirls. Light shimmering through the smoke, creating volumetric God-rays.",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "sceneNumber": 2,
+        "overlayText": "نقي، أصيل، وخالد (Pure, Authentic, and Timeless)",
+        "id": "scene_2_muiflq3t",
+        "durationSeconds": 6,
+        "cameraMovement": "Slow push-in (Dolly-in) towards the resinous heart of the wood.",
+        "transitionType": "fade",
+        "audioDirection": "Subtle wood crackle sounds and swelling orchestral strings.",
+        "imagePrompt": "Extreme macro shot of dark, resinous oud wood chunks. Thin ribbons of incense smoke curling upwards. Background is deep obsidian black #000000. Warm amber lighting #B87333 on the wood texture.",
+        "title": "The Sacred Oud Wood",
+        "status": "pending"
+      },
+      {
+        "approved": true,
+        "id": "scene_3_muiflq3t",
+        "cameraMovement": "Tight 360-degree rotation around the gold cap.",
+        "transitionType": "fade",
+        "audioDirection": "A metallic, melodic 'shimmer' sound effect.",
+        "videoPrompt": "Rotation of the cap. Specular light refraction: light glinting off the polished gold edges, creating starburst flares. Inertia-based rotation physics showing the weight and quality of the metal.",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "status": "pending",
+        "overlayText": "حرفة ملكية (Royal Craftsmanship)",
+        "sceneNumber": 3,
+        "title": "The Golden Craftsmanship",
+        "imagePrompt": "Extreme macro of the OUD AL AMEER bottle cap. Heavy gold filigree metal with intricate Arabic patterns. Soft reflections of golden dunes in the polished surface. High contrast shadows.",
+        "versionHistory": [],
+        "durationSeconds": 6
+      },
+      {
+        "status": "pending",
+        "versionHistory": [],
+        "videoPrompt": "Fluid dynamics: a high-pressure fine mist spray dispersing into a spherical cloud. Gravity-defying golden particles floating and catching the light. Realistic droplet dispersion and evaporation physics.",
+        "durationSeconds": 6,
+        "id": "scene_4_muiflq3t",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "imagePrompt": "Slow motion perfume spray mist against a black background. Each droplet is a golden amber sphere. Soft-focus lighting catching the mist. The matte black bottle visible in silhouette.",
+        "approved": true,
+        "cameraMovement": "Super slow-motion freeze frame effect with a slight orbital move.",
+        "title": "The Sillage Mist",
+        "sceneNumber": 4,
+        "audioDirection": "A crisp, satisfying 'pssh' spray sound followed by a deep reverb tail.",
+        "overlayText": "عطر لا يُنسى (An Unforgettable Scent)",
+        "transitionType": "fade"
+      },
+      {
+        "durationSeconds": 6,
+        "sceneNumber": 5,
+        "overlayText": "عود الأمير - جوهر الفخامة العربية",
+        "versionHistory": [],
+        "id": "scene_5_muiflq3t",
+        "imagePrompt": "Full shot of the OUD AL AMEER bottle standing on a black reflective marble floor. Background features blurred golden desert dunes. Smoke drifting elegantly behind. Golden logo OUD AL AMEER at the bottom.",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "title": "The Royal Packshot",
+        "transitionType": "fade",
+        "audioDirection": "Deep, authoritative Arabic male voiceover: 'عود الأمير... جوهر الفخامة العربية'. Final heavy cinematic beat.",
+        "cameraMovement": "Slow pull-back to reveal the full bottle and logo.",
+        "status": "pending",
+        "videoPrompt": "Final reveal. Subtle particle motion: floating golden dust particles in the air. Reflection physics: the bottle's base perfectly mirrored in the polished marble. Smooth pull-back movement.",
+        "approved": true
+      }
+    ],
+    "createdAt": "2026-09-26T13:34:39.209Z",
+    "status": "planned",
+    "targetAudience": "Luxury fragrance enthusiasts, premium perfume buyers, and people who appreciate Arabian oud, elegance, and sophisticated fragrances.",
+    "referenceImageUrl": "",
+    "language": "Arabic",
+    "durationSeconds": 30,
+    "id": "camp_muiflg4z",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "localizedVariants": [],
+    "updatedAt": "2026-09-26T17:26:03.424Z",
+    "creativeStyle": "Cinematic luxury Arabian perfume commercial. Black and gold color palette, warm golden desert lighting, elegant Arabic-inspired architecture, drifting incense smoke, floating golden dust particles, rich shadows, slow-motion product shots, smooth camera movements, macro close-ups, realistic reflections, and premium commercial cinematography. Maintain the same perfume bottle design, label, cap, and colors in every scene. All voiceovers and spoken dialogue must be in Arabic only, using a sophistica",
+    "aspectRatio": "16:9",
+    "brandName": "OUD AL AMEER",
+    "finalRender": {
+      "status": "idle",
+      "ffmpegCommandLog": ""
+    },
+    "productDescription": "\"Create a luxurious cinematic advertisement for OUD AL AMEER, a premium Arabic oud perfume brand. Feature an elegant black and gold perfume bottle surrounded by rich oud wood, golden Arabian desert dunes, and soft drifting incense smoke. Use warm golden lighting, sophisticated camera movements, and a royal Middle Eastern aesthetic. Highlight the bottle's craftsmanship and the richness of the fragrance. The mood should feel luxurious, mysterious, and timeless. End with the brand name OUD AL AMEER and the tagline: 'The Essence of Arabian Royalty.'\"",
+    "soundtrack": {
+      "history": [],
+      "volumeLevel": 0.85,
+      "prompt": "A blend of deep cello swells and a soulful solo Oud melody, layered with atmospheric desert wind textures and a rhythmic heartbeat of Taiko drums. Ends with a resonant, low-frequency 'thud' as the logo appears.",
+      "mood": "Epic, mysterious, and regal orchestral arrangement with traditional Arabic Oud strings and deep cinematic percussion.",
+      "status": "idle",
+      "includeInFinalMix": true
+    }
+  },
+  {
+    "targetAudience": "Luxury fragrance enthusiasts, premium perfume buyers, and people who appreciate Arabian oud, elegance, and sophisticated fragrances.",
+    "creativeStyle": "Cinematic luxury Arabian perfume commercial. Black and gold color palette, warm golden desert lighting, elegant Arabic-inspired architecture, drifting incense smoke, floating golden dust particles, rich shadows, slow-motion product shots, smooth camera movements, macro close-ups, realistic reflections, and premium commercial cinematography. Maintain the same perfume bottle design, label, cap, and colors in every scene. All voiceovers and spoken dialogue must be in Arabic only, using a sophistica",
+    "status": "completed",
+    "soundtrack": {
+      "history": [],
+      "generatedLyricsOrNotes": "<instrumental>",
+      "volumeLevel": 0.85,
+      "status": "ready",
+      "mood": "Epic, mysterious, and cinematic; blending a deep orchestral base with traditional Oud and Ney flute melodies.",
+      "audioUrl": "/assets/audio/soundtrack_camp_muiey07o_1790429588951.mp3",
+      "includeInFinalMix": true,
+      "modelUsed": "lyria-3-clip-preview",
+      "prompt": "Cinematic orchestral score, heavy cello and violin swells, layered with a soulful Middle Eastern Oud melody, featuring deep atmospheric reverb and subtle wind-like sound effects."
+    },
+    "finalRender": {
+      "fps": 24,
+      "renderedAt": "2026-09-26T13:33:28.056Z",
+      "status": "completed",
+      "ffmpegCommandLog": "ffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_1_muiey9xa_raw_v1_1790429543424.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790429596358_85xceg.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muiey07o_1790429596357/seg_00.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_2_muiey9xa_raw_v1_1790429543623.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790429597644_bsln2f.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muiey07o_1790429596357/seg_01.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_3_muiey9xa_raw_v1_1790429543821.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790429598947_0o1b7x.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muiey07o_1790429596357/seg_02.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_4_muiey9xa_raw_v1_1790429544021.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790429600081_ydji9z.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muiey07o_1790429596357/seg_03.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_5_muiey9xa_raw_v1_1790429544294.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790429601366_huv709.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muiey07o_1790429596357/seg_04.mp4\n\nffmpeg -y -f concat -safe 0 -i /app/applet/public/assets/temp/camp_muiey07o_1790429596357/concat_list.txt -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muiey07o_1790429596357/concatenated_video.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_muiey07o_1790429596357/concatenated_video.mp4 -stream_loop -1 -i /app/applet/public/assets/audio/soundtrack_camp_muiey07o_1790429588951.mp3 -t 30 -filter:a volume=0.85,afade=t=in:st=0:d=0.6,afade=t=out:st=28.50:d=1.4 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -shortest /app/applet/public/assets/renders/ad_camp_muiey07o_1790429607277.mp4",
+      "validationReport": {
+        "audioCodec": "aac",
+        "frameCount": 720,
+        "fileSizeBytes": 1457007,
+        "hasAudioStream": true,
+        "durationSeconds": 30,
+        "valid": true,
+        "width": 1280,
+        "videoCodec": "h264",
+        "checkedAt": "2026-09-26T13:33:28.053Z",
+        "height": 720
+      },
+      "durationSeconds": 30,
+      "videoUrl": "/assets/renders/ad_camp_muiey07o_1790429607277.mp4",
+      "fileSizeBytes": 1457007,
+      "resolution": "1280x720"
+    },
+    "aspectRatio": "16:9",
+    "updatedAt": "2026-09-26T17:26:03.425Z",
+    "scenes": [
+      {
+        "id": "scene_1_muiey9xa",
+        "approved": true,
+        "generationLatencyMs": 4951,
+        "subtitlesBurnedIn": true,
+        "durationSeconds": 6,
+        "title": "The Golden Awakening",
+        "status": "video_ready",
+        "imagePrompt": "Cinematic wide shot of rolling golden sand dunes at sunset, warm golden light #D4AF37 casting long shadows, fine sand grains glistening, high-end commercial aesthetic, 16:9.",
+        "transitionType": "fade",
+        "cameraMovement": "Slow horizontal tracking shot (Dolly Left to Right).",
+        "subtitleStyle": "broadcast",
+        "imageUrl": "/assets/images/scene_1_muiey9xa_1790429496916.jpg",
+        "interactionId": "omni_scene_1_muiey9xa_v1",
+        "videoPrompt": "Camera pans slowly across the desert ripples; wind gusts create realistic fluid dynamics in the sand, lifting fine golden dust particles that swirl and catch the light with natural inertia.",
+        "resolutionTag": "1K (1024px)",
+        "versionHistory": [],
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "videoUrl": "/assets/videos/scene_1_muiey9xa_v1_1790429543424.mp4",
+        "videoLatencyMs": 27676,
+        "rawVideoUrl": "/assets/videos/scene_1_muiey9xa_raw_v1_1790429543424.mp4",
+        "audioDirection": "The sound of a soft desert wind whistling, followed by a deep, resonant Oud note.",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "overlayText": "A Legacy Born in Gold",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "text": "A Legacy Born in Gold",
+            "endSeconds": 6
+          }
+        ],
+        "sceneNumber": 1,
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Slow horizontal tracking shot (Dolly Left to Right).) chained from 1K keyframe via gemini-omni-1.1-flash"
+      },
+      {
+        "imagePrompt": "Macro close-up of dark resinous oud wood blocks with rich textures, surrounded by wisps of white incense smoke, warm amber lighting #FFBF00, sharp focus on wood grain.",
+        "interactionId": "omni_scene_2_muiey9xa_v1",
+        "resolutionTag": "1K (1024px)",
+        "generationLatencyMs": 3859,
+        "durationSeconds": 6,
+        "cameraMovement": "Macro push-in (Z-axis) toward the texture of the wood.",
+        "videoUrl": "/assets/videos/scene_2_muiey9xa_v1_1790429543623.mp4",
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Macro push-in (Z-axis) toward the texture of the wood.) chained from 1K keyframe via gemini-omni-1.1-flash",
+        "status": "video_ready",
+        "transitionType": "fade",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "rawVideoUrl": "/assets/videos/scene_2_muiey9xa_raw_v1_1790429543623.mp4",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "title": "Heart of the Oud",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "sceneNumber": 2,
+        "overlayText": "Rich. Rare. Timeless.",
+        "id": "scene_2_muiey9xa",
+        "imageUrl": "/assets/images/scene_2_muiey9xa_1790429501984.jpg",
+        "videoPrompt": "Slow-motion rising thermal smoke drifting upwards in intricate, physically accurate curls; specular light refracts through the smoke, highlighting the oily texture of the oud wood.",
+        "approved": true,
+        "videoLatencyMs": 27897,
+        "subtitleStyle": "broadcast",
+        "subtitleCues": [
+          {
+            "text": "Rich. Rare. Timeless.",
+            "startSeconds": 0.05,
+            "endSeconds": 6
+          }
+        ],
+        "subtitlesBurnedIn": true,
+        "audioDirection": "Soft crackling of burning wood and a whisper-like Arabic voiceover (male, deep and authoritative)."
+      },
+      {
+        "generationLatencyMs": 3477,
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Low-angle tilt up from the base to the golden cap.) chained from 1K keyframe via gemini-omni-1.1-flash",
+        "videoUrl": "/assets/videos/scene_3_muiey9xa_v1_1790429543821.mp4",
+        "status": "video_ready",
+        "rawVideoUrl": "/assets/videos/scene_3_muiey9xa_raw_v1_1790429543821.mp4",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "id": "scene_3_muiey9xa",
+        "sceneNumber": 3,
+        "overlayText": "Crafted for the Noble",
+        "transitionType": "fade",
+        "cameraMovement": "Low-angle tilt up from the base to the golden cap.",
+        "videoPrompt": "A single light beam sweeps across the bottle from left to right; reflections on the gold cap move accurately with the light source; subtle condensation droplets on the bottle surface.",
+        "resolutionTag": "1K (1024px)",
+        "title": "The Sovereign Reveal",
+        "interactionId": "omni_scene_3_muiey9xa_v1",
+        "imagePrompt": "Low angle shot of the OUD AL AMEER bottle, matte black glass with a gold cap, standing on a reflective black marble surface, golden light streaks hitting the gold neck.",
+        "subtitleStyle": "broadcast",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "approved": true,
+        "versionHistory": [],
+        "subtitlesBurnedIn": true,
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "text": "Crafted for the Noble",
+            "endSeconds": 6
+          }
+        ],
+        "durationSeconds": 6,
+        "imageUrl": "/assets/images/scene_3_muiey9xa_1790429506674.jpg",
+        "audioDirection": "A rhythmic cinematic drum hit (Taiko) synchronized with the light sweep.",
+        "videoLatencyMs": 27788
+      },
+      {
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "videoPrompt": "Floating gold dust particles moving with Brownian motion through the light shafts; the camera moves smoothly forward as the shadows of the archway pass over the bottle.",
+        "versionHistory": [],
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "subtitleCues": [
+          {
+            "endSeconds": 6,
+            "startSeconds": 0.05,
+            "text": "An Unforgettable Presence"
+          }
+        ],
+        "imageUrl": "/assets/images/scene_4_muiey9xa_1790429511401.jpg",
+        "rawVideoUrl": "/assets/videos/scene_4_muiey9xa_raw_v1_1790429544021.mp4",
+        "approved": true,
+        "sceneNumber": 4,
+        "audioDirection": "The Oud melody reaches a crescendo with orchestral strings swelling.",
+        "subtitleStyle": "broadcast",
+        "overlayText": "An Unforgettable Presence",
+        "videoLatencyMs": 27725,
+        "interactionId": "omni_scene_4_muiey9xa_v1",
+        "resolutionTag": "1K (1024px)",
+        "id": "scene_4_muiey9xa",
+        "generationLatencyMs": 3525,
+        "durationSeconds": 6,
+        "imagePrompt": "The OUD AL AMEER bottle positioned inside a luxury Arabic palace archway, mashrabiya shadows cast on the floor, floating gold particles in the air, 35mm lens.",
+        "status": "video_ready",
+        "transitionType": "fade",
+        "title": "Architecture of Scent",
+        "cameraMovement": "Gimbal forward movement (Push-in).",
+        "subtitlesBurnedIn": true,
+        "videoUrl": "/assets/videos/scene_4_muiey9xa_v1_1790429544021.mp4",
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Gimbal forward movement (Push-in).) chained from 1K keyframe via gemini-omni-1.1-flash"
+      },
+      {
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "id": "scene_5_muiey9xa",
+        "title": "The Royal Seal",
+        "audioDirection": "Final Arabic voiceover: 'Oud Al Ameer... Jawharat Al Malakiya'. Soft lingering violin note fades to silence.",
+        "subtitleStyle": "broadcast",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 6,
+            "text": "OUD AL AMEER - The Essence of Arabian Royalty"
+          }
+        ],
+        "videoLatencyMs": 27439,
+        "imagePrompt": "Full product shot of OUD AL AMEER bottle centered on a black background, gold logo appearing above, elegant gold calligraphy, cinematic studio lighting.",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "durationSeconds": 6,
+        "videoUrl": "/assets/videos/scene_5_muiey9xa_v1_1790429544294.mp4",
+        "status": "video_ready",
+        "versionHistory": [],
+        "imageUrl": "/assets/images/scene_5_muiey9xa_1790429515888.jpg",
+        "overlayText": "OUD AL AMEER - The Essence of Arabian Royalty",
+        "sceneNumber": 5,
+        "transitionType": "fade",
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Slow zoom out to reveal the full brand layout.) chained from 1K keyframe via gemini-omni-1.1-flash",
+        "cameraMovement": "Slow zoom out to reveal the full brand layout.",
+        "rawVideoUrl": "/assets/videos/scene_5_muiey9xa_raw_v1_1790429544294.mp4",
+        "generationLatencyMs": 3277,
+        "resolutionTag": "1K (1024px)",
+        "interactionId": "omni_scene_5_muiey9xa_v1",
+        "subtitlesBurnedIn": true,
+        "approved": true,
+        "videoPrompt": "Subtle light glints on the edges of the gold label; the background smoke fades slowly as the logo sharpens; the bottle remains perfectly still while reflections dance on the glass."
+      }
+    ],
+    "createdAt": "2026-09-26T13:16:25.150Z",
+    "id": "camp_muiey07o",
+    "plan": {
+      "visualIdentity": {
+        "lensAndFraming": "Anamorphic 85mm macro for product details and 35mm wide for cinematic landscapes, emphasizing depth of field and bokeh.",
+        "colorPalette": [
+          "Obsidian Black (#0A0A0A)",
+          "Royal Gold (#D4AF37)",
+          "Deep Amber (#FFBF00)",
+          "Sand Beige (#C2B280)"
+        ],
+        "lightingStyle": "Warm golden-hour backlighting combined with Rembrandt-style chiaroscuro to create deep shadows and brilliant highlights on gold surfaces.",
+        "continuityAnchors": "Cylindrical matte black glass bottle, gold-plated cap with intricate Arabic calligraphy, and a weighted gold base."
+      },
+      "campaignMessage": "The Essence of Arabian Royalty.",
+      "musicalMood": "Epic, mysterious, and cinematic; blending a deep orchestral base with traditional Oud and Ney flute melodies.",
+      "soundtrackPrompt": "Cinematic orchestral score, heavy cello and violin swells, layered with a soulful Middle Eastern Oud melody, featuring deep atmospheric reverb and subtle wind-like sound effects.",
+      "creativeConcept": "The Legacy of the Golden Sands: A visual journey through the heritage and regal essence of Oud, culminating in the unveiling of a fragrance designed for royalty."
+    },
+    "productDescription": "\"Create a luxurious cinematic advertisement for OUD AL AMEER, a premium Arabic oud perfume brand. Feature an elegant black and gold perfume bottle surrounded by rich oud wood, golden Arabian desert dunes, and soft drifting incense smoke. Use warm golden lighting, sophisticated camera movements, and a royal Middle Eastern aesthetic. Highlight the bottle's craftsmanship and the richness of the fragrance. The mood should feel luxurious, mysterious, and timeless. End with the brand name OUD AL AMEER and the tagline: 'The Essence of Arabian Royalty.'\"",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "language": "english",
+    "campaignObjective": "Create a premium cinematic advertisement that showcases the elegance, richness, and heritage of OUD AL AMEER. Build emotional desire for the fragrance and establish the brand as a symbol of Arabian luxury. End with a memorable Arabic voiceover and a premium brand reveal.",
+    "durationSeconds": 30,
+    "localizedVariants": [],
+    "brandName": "OUD AL AMEER",
+    "referenceImageUrl": ""
+  },
+  {
+    "aspectRatio": "16:9",
+    "createdAt": "2026-09-26T13:14:26.275Z",
+    "referenceImageUrl": "",
+    "finalRender": {
+      "ffmpegCommandLog": "",
+      "status": "idle"
+    },
+    "localizedVariants": [],
+    "targetAudience": "Luxury fragrance enthusiasts, premium perfume buyers, and people who appreciate Arabian oud, elegance, and sophisticated fragrances.",
+    "scenes": [
+      {
+        "status": "pending",
+        "videoPrompt": "Cinematic drone sweep over desert dunes, wind-blown sand grains skittering over the surface with realistic fluid dynamics, wisps of volumetric smoke swirling around the perfume bottle, golden light reflecting off the black glass.",
+        "transitionType": "fade",
+        "audioDirection": "The sound of desert wind whistling, followed by a soft, deep oud chord.",
+        "approved": true,
+        "cameraMovement": "Low-angle tracking drone shot moving forward.",
+        "sceneNumber": 1,
+        "versionHistory": [],
+        "durationSeconds": 6,
+        "overlayText": "من قلب الصحراء",
+        "title": "The Desert Awakening",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "imagePrompt": "Wide cinematic shot of rolling golden sand dunes at sunset, a silhouette of the OUD AL AMEER black and gold bottle in the foreground, soft white incense smoke drifting across the dunes, #D4AF37 golden lighting.",
+        "id": "scene_1_muievq77"
+      },
+      {
+        "title": "The Resin of Time",
+        "approved": true,
+        "cameraMovement": "Slow macro dolly-in.",
+        "audioDirection": "Subtle sound of wood creaking and the 'ticking' of resin droplets.",
+        "transitionType": "fade",
+        "videoPrompt": "Extreme close-up of viscous golden resin slowly oozing from the grain of dark oud wood, microscopic gold flakes suspended in the air moving with Brownian motion, sharp specular light refraction on the resin surface.",
+        "durationSeconds": 6,
+        "id": "scene_2_muievq77",
+        "sceneNumber": 2,
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "overlayText": "أصالة العود المعتق",
+        "imagePrompt": "Macro shot of dark, textured oud wood pieces with golden resin droplets, floating gold dust particles, warm backlight hitting the obsidian bottle surface in the background.",
+        "versionHistory": [],
+        "status": "pending"
+      },
+      {
+        "durationSeconds": 6,
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "videoPrompt": "Macro rotation of the golden perfume cap, light rays catching the engraved patterns, realistic metallic reflections and micro-scratches on the gold surface, rising thermal steam in the background.",
+        "status": "pending",
+        "approved": true,
+        "versionHistory": [],
+        "title": "The Royal Crown",
+        "overlayText": "فخامة التفاصيل",
+        "sceneNumber": 3,
+        "cameraMovement": "360-degree orbital rotation.",
+        "audioDirection": "A metallic, resonant chime as the light hits the gold.",
+        "transitionType": "dissolve",
+        "id": "scene_3_muievq77",
+        "imagePrompt": "Extreme close-up of the OUD AL AMEER brushed-gold cap, intricate geometric Arabic engravings, light glinting off the polished edges, dark background with floating embers."
+      },
+      {
+        "approved": true,
+        "status": "pending",
+        "videoPrompt": "Slow-motion tracking shot of the bottle on marble, shadows of Arabic arches shifting across the scene, silk curtains in the background moving with soft inertia, light glinting off the gold label.",
+        "versionHistory": [],
+        "title": "The Palace Presence",
+        "transitionType": "fade",
+        "sceneNumber": 4,
+        "audioDirection": "Voiceover begins: 'فخامة تليق بك'",
+        "overlayText": "هيبة الملوك",
+        "cameraMovement": "Lateral slider move.",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "durationSeconds": 6,
+        "imagePrompt": "The OUD AL AMEER bottle standing on a black marble pedestal, arched Arabic architectural shadows on the floor, soft golden light pouring through a moucharaby screen.",
+        "id": "scene_4_muievq77"
+      },
+      {
+        "approved": true,
+        "imagePrompt": "Full packshot of OUD AL AMEER bottle centered, surrounded by a ring of thick white incense smoke, black background, 'The Essence of Arabian Royalty' text in gold.",
+        "id": "scene_5_muievq77",
+        "cameraMovement": "Slow zoom out to reveal brand logo.",
+        "audioDirection": "Full orchestral swell, Arabic voiceover: 'عود الأمير... جوهر الرفاهية الملكية'",
+        "transitionType": "fade",
+        "overlayText": "OUD AL AMEER - جوهر الرفاهية الملكية",
+        "sceneNumber": 5,
+        "durationSeconds": 6,
+        "title": "The Essence Reveal",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "videoPrompt": "The bottle emerges through a dense cloud of incense smoke that parts around it, golden sand particles falling slowly around the base, the liquid inside the bottle shimmering as the camera stops.",
+        "versionHistory": [],
+        "status": "pending"
+      }
+    ],
+    "durationSeconds": 30,
+    "language": "Arabic",
+    "updatedAt": "2026-09-26T17:26:03.425Z",
+    "plan": {
+      "creativeConcept": "The Liquid Gold of the Orient: A cinematic odyssey through the elements of Arabian luxury, tracing the journey from the raw essence of aged oud wood and the golden dunes of the desert to the refined elegance of OUD AL AMEER.",
+      "campaignMessage": "OUD AL AMEER: جوهر الأصالة والرفاهية الملكية",
+      "soundtrackPrompt": "A slow-building, regal orchestral track featuring a haunting oud melody, cinematic sub-bass pulses, and the atmospheric sound of desert wind and crackling incense.",
+      "visualIdentity": {
+        "lightingStyle": "Warm 'Golden Hour' lighting with high-contrast chiaroscuro, utilizing volumetric light shafts and sharp specular highlights on metallic surfaces.",
+        "continuityAnchors": "Recurring cylindrical obsidian-black glass bottle with a heavy, brushed-gold geometric cap and a vertical gold-leaf label featuring the brand name 'OUD AL AMEER' in both Arabic and English script.",
+        "lensAndFraming": "Anamorphic 35mm for wide landscapes and 85mm Macro for product details, featuring shallow depth of field (f/1.8) to emphasize textures.",
+        "colorPalette": [
+          "#000000 (Obsidian Black)",
+          "#D4AF37 (Royal Gold)",
+          "#C2B280 (Desert Sand)",
+          "#4A3728 (Deep Umber Oud)"
+        ]
+      },
+      "musicalMood": "Epic, orchestral Middle Eastern fusion with deep cello, traditional oud plucking, and ethereal cinematic pads."
+    },
+    "soundtrack": {
+      "volumeLevel": 0.85,
+      "includeInFinalMix": true,
+      "status": "idle",
+      "mood": "Epic, orchestral Middle Eastern fusion with deep cello, traditional oud plucking, and ethereal cinematic pads.",
+      "prompt": "A slow-building, regal orchestral track featuring a haunting oud melody, cinematic sub-bass pulses, and the atmospheric sound of desert wind and crackling incense.",
+      "history": []
+    },
+    "campaignObjective": "Create a premium cinematic advertisement that showcases the elegance, richness, and heritage of OUD AL AMEER. Build emotional desire for the fragrance and establish the brand as a symbol of Arabian luxury. End with a memorable Arabic voiceover and a premium brand reveal.",
+    "status": "planned",
+    "brandName": "OUD AL AMEER",
+    "id": "camp_muievf85",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "creativeStyle": "Cinematic luxury Arabian perfume commercial. Black and gold color palette, warm golden desert lighting, elegant Arabic-inspired architecture, drifting incense smoke, floating golden dust particles, rich shadows, slow-motion product shots, smooth camera movements, macro close-ups, realistic reflections, and premium commercial cinematography. Maintain the same perfume bottle design, label, cap, and colors in every scene. All voiceovers and spoken dialogue must be in Arabic only, using a sophistica",
+    "productDescription": "\"Create a luxurious cinematic advertisement for OUD AL AMEER, a premium Arabic oud perfume brand. Feature an elegant black and gold perfume bottle surrounded by rich oud wood, golden Arabian desert dunes, and soft drifting incense smoke. Use warm golden lighting, sophisticated camera movements, and a royal Middle Eastern aesthetic. Highlight the bottle's craftsmanship and the richness of the fragrance. The mood should feel luxurious, mysterious, and timeless. End with the brand name OUD AL AMEER and the tagline: 'The Essence of Arabian Royalty.'\""
+  },
+  {
+    "status": "completed",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "language": "English",
+    "scenes": [
+      {
+        "videoLatencyMs": 28525,
+        "audioDirection": "Whistling desert wind fading into a deep, resonant cello note.",
+        "videoPrompt": "Slow drone sweep over shifting sand dunes, realistic wind fluid dynamics moving fine grains, light refraction through dust.",
+        "imageUrl": "/assets/images/scene_1_muigeu3z_1790431463424.jpg",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "overlayText": "A Legacy Born in the Sands",
+        "generationLatencyMs": 5004,
+        "sceneNumber": 1,
+        "subtitleStyle": "broadcast",
+        "id": "scene_1_muigeu3z",
+        "subtitlesBurnedIn": true,
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 6,
+            "text": "A Legacy Born in the Sands"
+          }
+        ],
+        "approved": true,
+        "rawVideoUrl": "/assets/videos/scene_1_muigeu3z_raw_v1_1790431519401.mp4",
+        "durationSeconds": 6,
+        "versionHistory": [],
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "status": "video_ready",
+        "cameraMovement": "Low-angle tracking shot moving forward.",
+        "transitionType": "dissolve",
+        "resolutionTag": "1K (1024px)",
+        "title": "The Golden Sands",
+        "interactionId": "omni_scene_1_muigeu3z_v1",
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Low-angle tracking shot moving forward.) chained from 1K keyframe via gemini-omni-1.1-flash",
+        "imagePrompt": "Cinematic wide shot of rolling golden desert dunes at sunset, floating gold dust particles, amber atmosphere, 8k resolution.",
+        "videoUrl": "/assets/videos/scene_1_muigeu3z_v1_1790431519401.mp4"
+      },
+      {
+        "generationLatencyMs": 5831,
+        "title": "The Raw Essence",
+        "id": "scene_2_muigeu3z",
+        "imageUrl": "/assets/images/scene_2_muigeu3z_1790431470457.jpg",
+        "imagePrompt": "Macro shot of dark, resinous oud wood bark, thin wisps of blue-grey incense smoke, warm rim lighting on wood texture.",
+        "subtitleCues": [
+          {
+            "text": "Rich. Rare. Resinous.",
+            "endSeconds": 6,
+            "startSeconds": 0.05
+          }
+        ],
+        "transitionType": "fade",
+        "cameraMovement": "Extreme close-up macro pan.",
+        "approved": true,
+        "status": "video_ready",
+        "subtitleStyle": "broadcast",
+        "durationSeconds": 6,
+        "subtitlesBurnedIn": true,
+        "overlayText": "Rich. Rare. Resinous.",
+        "interactionId": "omni_scene_2_muigeu3z_v1",
+        "sceneNumber": 2,
+        "resolutionTag": "1K (1024px)",
+        "videoLatencyMs": 28820,
+        "rawVideoUrl": "/assets/videos/scene_2_muigeu3z_raw_v1_1790431519597.mp4",
+        "audioDirection": "Rhythmic oud string plucks with a subtle wooden crackle sound.",
+        "versionHistory": [],
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "videoPrompt": "Slow motion rising thermal smoke drifting across wood grain, incense particles dancing in a light beam, shallow DOF.",
+        "videoUrl": "/assets/videos/scene_2_muigeu3z_v1_1790431519597.mp4",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Extreme close-up macro pan.) chained from 1K keyframe via gemini-omni-1.1-flash"
+      },
+      {
+        "overlayText": "Crafted for Royalty",
+        "sceneNumber": 3,
+        "rawVideoUrl": "/assets/videos/scene_3_muigeu3z_raw_v1_1790431519802.mp4",
+        "audioDirection": "High-pitched metallic shimmer sound effect over deep bass pad.",
+        "imageUrl": "/assets/images/scene_3_muigeu3z_1790431477226.jpg",
+        "videoLatencyMs": 28516,
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "generationLatencyMs": 5559,
+        "durationSeconds": 6,
+        "subtitleStyle": "broadcast",
+        "title": "The Golden Crown",
+        "approved": true,
+        "versionHistory": [],
+        "videoPrompt": "Light ray sweeping across metallic gold surface, realistic specular highlights, micro-vibrations in smoke background.",
+        "status": "video_ready",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 6,
+            "text": "Crafted for Royalty"
+          }
+        ],
+        "cameraMovement": "Circular orbital rotation.",
+        "imagePrompt": "Extreme macro of OUD AL AMEER gold lattice bottle cap, metallic gold reflections, black glass neck, sharp focus.",
+        "resolutionTag": "1K (1024px)",
+        "transitionType": "fade",
+        "interactionId": "omni_scene_3_muigeu3z_v1",
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Circular orbital rotation.) chained from 1K keyframe via gemini-omni-1.1-flash",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "subtitlesBurnedIn": true,
+        "id": "scene_3_muigeu3z",
+        "videoUrl": "/assets/videos/scene_3_muigeu3z_v1_1790431519802.mp4"
+      },
+      {
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "subtitlesBurnedIn": true,
+        "versionHistory": [],
+        "imagePrompt": "Suspended golden perfume droplets in mid-air against a black background, backlit by warm amber light, caustic reflections.",
+        "interactionId": "omni_scene_4_muigeu3z_v1",
+        "status": "video_ready",
+        "imageUrl": "/assets/images/scene_4_muigeu3z_1790431483953.jpg",
+        "resolutionTag": "1K (1024px)",
+        "approved": true,
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Super slow-motion zoom out.) chained from 1K keyframe via gemini-omni-1.1-flash",
+        "audioDirection": "Orchestral swell with a soft 'whoosh' of air.",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "text": "The Spirit of the East",
+            "endSeconds": 6
+          }
+        ],
+        "videoLatencyMs": 28764,
+        "sceneNumber": 4,
+        "overlayText": "The Spirit of the East",
+        "rawVideoUrl": "/assets/videos/scene_4_muigeu3z_raw_v1_1790431519998.mp4",
+        "subtitleStyle": "broadcast",
+        "id": "scene_4_muigeu3z",
+        "durationSeconds": 6,
+        "videoUrl": "/assets/videos/scene_4_muigeu3z_v1_1790431519998.mp4",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "transitionType": "fade",
+        "cameraMovement": "Super slow-motion zoom out.",
+        "videoPrompt": "Slow motion fluid dynamics, perfume spray atomizing into golden mist, swirling inertia, light refracting through amber liquid.",
+        "generationLatencyMs": 5515,
+        "title": "The Liquid Gold"
+      },
+      {
+        "versionHistory": [],
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "imagePrompt": "Full OUD AL AMEER bottle centered in a marble palace archway, sunset background, incense smoke framing the base.",
+        "approved": true,
+        "title": "The Royal Reveal",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "imageUrl": "/assets/images/scene_5_muigeu3z_1790431491639.jpg",
+        "subtitleCues": [
+          {
+            "text": "OUD AL AMEER - The Essence of Arabian Royalty",
+            "endSeconds": 6,
+            "startSeconds": 0.05
+          }
+        ],
+        "subtitleStyle": "broadcast",
+        "videoLatencyMs": 28510,
+        "generationLatencyMs": 6485,
+        "audioDirection": "Deep Arabic voiceover: 'OUD AL AMEER... The Essence of Arabian Royalty.'",
+        "sceneNumber": 5,
+        "videoUrl": "/assets/videos/scene_5_muigeu3z_v1_1790431520204.mp4",
+        "overlayText": "OUD AL AMEER - The Essence of Arabian Royalty",
+        "status": "video_ready",
+        "resolutionTag": "1K (1024px)",
+        "rawVideoUrl": "/assets/videos/scene_5_muigeu3z_raw_v1_1790431520204.mp4",
+        "interactionId": "omni_scene_5_muigeu3z_v1",
+        "directorNotes": "Synthesized 24fps physics-grounded motion clip (Slow dolly-in.) chained from 1K keyframe via gemini-omni-1.1-flash",
+        "subtitlesBurnedIn": true,
+        "durationSeconds": 6,
+        "videoPrompt": "Gentle push-in toward the bottle, flickering candle light reflections on glass, smoke billowing with realistic turbulence.",
+        "transitionType": "fade",
+        "id": "scene_5_muigeu3z",
+        "cameraMovement": "Slow dolly-in."
+      }
+    ],
+    "id": "camp_muigel52",
+    "targetAudience": "Luxury fragrance enthusiasts, premium perfume buyers, and people who appreciate Arabian oud, elegance, and sophisticated fragrances.",
+    "plan": {
+      "creativeConcept": "Desert Royalty: A journey through the soul of oud, blending ancient landscapes with modern luxury.",
+      "campaignMessage": "Experience the legacy of elegance with OUD AL AMEER.",
+      "soundtrackPrompt": "Deep rhythmic oud plucks with heavy cinematic brass swells and ethereal reverb-soaked vocal textures.",
+      "visualIdentity": {
+        "lightingStyle": "High-contrast chiaroscuro with warm golden backlighting and cinematic lens flares.",
+        "colorPalette": [
+          "#000000 (Obsidian Black)",
+          "#D4AF37 (24K Gold)",
+          "#8B4513 (Burnt Umber)",
+          "#FFBF00 (Amber)"
+        ],
+        "lensAndFraming": "Anamorphic 35mm and 85mm primes, shallow depth of field, centered symmetry.",
+        "continuityAnchors": "Rectangular obsidian glass bottle, gold lattice cap, Arabic calligraphy label, consistent golden hour sun angle."
+      },
+      "musicalMood": "Epic cinematic fusion of traditional oud strings and modern orchestral sub-bass."
+    },
+    "brandName": "OUD AL AMEER",
+    "localizedVariants": [],
+    "updatedAt": "2026-09-26T17:26:03.425Z",
+    "soundtrack": {
+      "prompt": "Deep rhythmic oud plucks with heavy cinematic brass swells and ethereal reverb-soaked vocal textures.",
+      "audioUrl": "/assets/audio/soundtrack_camp_muigel52_1790431606675.mp3",
+      "includeInFinalMix": true,
+      "modelUsed": "lyria-3.5",
+      "generatedLyricsOrNotes": "Adaptive Epic cinematic fusion of traditional oud strings and modern orchestral sub-bass. commercial score for OUD AL AMEER (lyria-3.5).",
+      "mood": "Epic cinematic fusion of traditional oud strings and modern orchestral sub-bass.",
+      "status": "ready",
+      "volumeLevel": 0.85,
+      "history": []
+    },
+    "referenceImageUrl": "/assets/images/ref_camp_muigel52.png",
+    "productDescription": "\"Create a luxurious cinematic advertisement for OUD AL AMEER, a premium Arabic oud perfume brand. Feature an elegant black and gold perfume bottle surrounded by rich oud wood, golden Arabian desert dunes, and soft drifting incense smoke. Use warm golden lighting, sophisticated camera movements, and a royal Middle Eastern aesthetic. Highlight the bottle's craftsmanship and the richness of the fragrance. The mood should feel luxurious, mysterious, and timeless. End with the brand name OUD AL AMEER and the tagline: 'The Essence of Arabian Royalty.'\"",
+    "finalRender": {
+      "validationReport": {
+        "hasAudioStream": true,
+        "height": 720,
+        "audioCodec": "aac",
+        "checkedAt": "2026-09-26T14:07:03.698Z",
+        "frameCount": 720,
+        "valid": true,
+        "width": 1280,
+        "durationSeconds": 30,
+        "fileSizeBytes": 1733542,
+        "videoCodec": "h264"
+      },
+      "renderedAt": "2026-09-26T14:07:03.701Z",
+      "ffmpegCommandLog": "ffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_1_muigeu3z_raw_v1_1790431519401.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790431609830_vsk3fj.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muigel52_1790431609830/seg_00.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_2_muigeu3z_raw_v1_1790431519597.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790431611239_tikk29.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muigel52_1790431609830/seg_01.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_3_muigeu3z_raw_v1_1790431519802.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790431612780_76ihvl.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muigel52_1790431609830/seg_02.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_4_muigeu3z_raw_v1_1790431519998.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790431614257_cfhe1l.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muigel52_1790431609830/seg_03.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_5_muigeu3z_raw_v1_1790431520204.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,ass=/tmp/sub_1790431615755_h33qq9.ass,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muigel52_1790431609830/seg_04.mp4\n\nffmpeg -y -f concat -safe 0 -i /app/applet/public/assets/temp/camp_muigel52_1790431609830/concat_list.txt -c:v libx264 -crf 28 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muigel52_1790431609830/concatenated_video.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_muigel52_1790431609830/concatenated_video.mp4 -stream_loop -1 -i /app/applet/public/assets/audio/soundtrack_camp_muigel52_1790431606675.mp3 -t 30 -filter:a volume=0.85,afade=t=in:st=0:d=0.6,afade=t=out:st=28.50:d=1.4 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -shortest /app/applet/public/assets/renders/ad_camp_muigel52_1790431622904.mp4",
+      "fileSizeBytes": 1733542,
+      "videoUrl": "/assets/renders/ad_camp_muigel52_1790431622904.mp4",
+      "durationSeconds": 30,
+      "resolution": "1280x720",
+      "status": "completed",
+      "fps": 24
+    },
+    "aspectRatio": "16:9",
+    "createdAt": "2026-09-26T13:57:17.423Z",
+    "durationSeconds": 30,
+    "creativeStyle": "Cinematic luxury Arabian perfume commercial. Black and gold color palette, warm golden desert lighting, elegant Arabic-inspired architecture, drifting incense smoke, floating golden dust particles, rich shadows, slow-motion product shots, smooth camera movements, macro close-ups, realistic reflections, and premium commercial cinematography. Maintain the same perfume bottle design, label, cap, and colors in every scene. All voiceovers and spoken dialogue must be in Arabic only, using a sophistica",
+    "campaignObjective": "Create a premium cinematic advertisement that showcases the elegance, richness, and heritage of OUD AL AMEER. Build emotional desire for the fragrance and establish the brand as a symbol of Arabian luxury. End with a memorable Arabic voiceover and a premium brand reveal."
+  },
+  {
+    "id": "camp_muib20h3",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "brandName": "genmedia",
+    "productDescription": "generate ad for genmedia",
+    "targetAudience": "gemini",
+    "campaignObjective": "google",
+    "creativeStyle": "Cinematic luxury Arabian perfume commercial. Black and gold color palette, warm golden desert lighting, elegant Arabic-inspired architecture, drifting incense smoke, floating golden dust particles, rich shadows, slow-motion product shots, smooth camera movements, macro close-ups, realistic reflections, and premium commercial cinematography. Maintain the same perfume bottle design, label, cap, and colors in every scene. All voiceovers and spoken dialogue must be in Arabic only, using a sophistica",
+    "durationSeconds": 30,
+    "aspectRatio": "16:9",
+    "language": "Arabic",
+    "status": "planned",
+    "plan": {
+      "creativeConcept": "The Essence of Intelligence: A fusion of ancient Arabian luxury and futuristic AI precision, where 'genmedia' is presented as a high-end perfume to symbolize the sophisticated output of Google Gemini.",
+      "campaignMessage": "genmedia: تحويل الرؤية إلى واقع بلمسة ذهبية من جوجل جيميناي",
+      "visualIdentity": {
+        "colorPalette": [
+          "#000000 (Obsidian Black)",
+          "#D4AF37 (Royal Gold)",
+          "#F5F5DC (Desert Sand)",
+          "#1A1A1A (Deep Charcoal)"
+        ],
+        "lightingStyle": "High-contrast Chiaroscuro with warm golden hour highlights and soft volumetric light rays.",
+        "lensAndFraming": "Anamorphic 85mm for macro product shots and 35mm for architectural wide shots, shallow depth of field.",
+        "continuityAnchors": "Rectangular obsidian glass bottle, faceted hexagonal gold cap, minimalist gold embossed label 'genmedia' in center."
+      },
+      "musicalMood": "Cinematic orchestral fusion featuring a soulful Oud melody, deep cinematic sub-bass, and ethereal atmospheric pads.",
+      "soundtrackPrompt": "Luxury Arabian commercial soundtrack, elegant oud solo, deep bass pulses, shimmering chimes, cinematic strings, 100 BPM, sophisticated and mysterious."
+    },
+    "scenes": [
+      {
+        "id": "scene_1_muib292q",
+        "sceneNumber": 1,
+        "title": "The Golden Awakening",
+        "durationSeconds": 6,
+        "imagePrompt": "Macro shot of gold dust particles rising from obsidian black desert sand, warm golden hour lighting, 85mm lens, #D4AF37 gold highlights against #000000 background.",
+        "videoPrompt": "Slow-motion gold dust swirling with realistic inertia and air resistance, particles reflecting warm light, fluid movement against a dark backdrop.",
+        "cameraMovement": "Slow push-in towards the center of the dust cloud.",
+        "audioDirection": "Soft wind whisper transitioning into a deep bass drop with a faint oud pluck.",
+        "transitionType": "fade",
+        "overlayText": "من وحي الخيال",
+        "approved": true,
+        "status": "pending",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "genmedia — The Golden Awakening"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "من وحي الخيال"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "id": "scene_2_muib292q",
+        "sceneNumber": 2,
+        "title": "The Obsidian Vessel",
+        "durationSeconds": 6,
+        "imagePrompt": "Close-up of the 'genmedia' perfume bottle: rectangular obsidian glass, gold faceted cap, gold embossed label. Drifting incense smoke in background, rich shadows.",
+        "videoPrompt": "Volumetric incense smoke drifting slowly around the bottle, light refracting through the obsidian glass edges, specular highlights on the gold cap.",
+        "cameraMovement": "Slow orbit around the bottle's gold cap.",
+        "audioDirection": "Sound of silk brushing against stone, shimmering wind chimes.",
+        "transitionType": "fade",
+        "overlayText": "صُمم بدقة",
+        "approved": true,
+        "status": "pending",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "genmedia — The Obsidian Vessel"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "صُمم بدقة"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "id": "scene_3_muib292q",
+        "sceneNumber": 3,
+        "title": "The Hall of Light",
+        "durationSeconds": 6,
+        "imagePrompt": "The 'genmedia' bottle on a black marble pedestal inside a grand Arabic hall with mashrabiya windows. Golden light patterns on the floor, #D4AF37 and #000000.",
+        "videoPrompt": "Golden light rays (Tyndall effect) shifting across the scene as if the sun is moving, dust motes dancing in the light beams, realistic shadow casting.",
+        "cameraMovement": "Low-angle crane shot rising to reveal the architecture.",
+        "audioDirection": "Reverberant oud melody with orchestral string swell.",
+        "transitionType": "fade",
+        "overlayText": "قوة جوجل جيميناي",
+        "approved": true,
+        "status": "pending",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "genmedia — The Hall of Light"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "قوة جوجل جيميناي"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "id": "scene_4_muib292q",
+        "sceneNumber": 4,
+        "title": "Liquid Intelligence",
+        "durationSeconds": 6,
+        "imagePrompt": "Extreme macro of golden liquid swirling inside the obsidian glass bottle, refraction of light through liquid, gold particles suspended in fluid.",
+        "videoPrompt": "Viscous fluid dynamics, golden liquid swirling slowly with surface tension and refraction, light caustic patterns dancing on the interior glass walls.",
+        "cameraMovement": "Macro zoom into the liquid texture.",
+        "audioDirection": "Subtle underwater harmonic resonance, crystalline textures.",
+        "transitionType": "fade",
+        "overlayText": "فن الإبداع",
+        "approved": true,
+        "status": "pending",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "genmedia — Liquid Intelligence"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "فن الإبداع"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "id": "scene_5_muib292q",
+        "sceneNumber": 5,
+        "title": "The Ultimate Reveal",
+        "durationSeconds": 6,
+        "imagePrompt": "Full shot of the 'genmedia' perfume bottle centered, bokeh background of a desert night, sharp focus on the gold label and faceted cap, #D4AF37 radiance.",
+        "videoPrompt": "A final shimmer of light travels across the gold label, soft focus golden bokeh particles floating gently downwards, subtle reflection on the black base.",
+        "cameraMovement": "Steady pull-back to reveal the full product composition.",
+        "audioDirection": "Final grand orchestral chord with a lingering oud note, fading into silence.",
+        "transitionType": "fade",
+        "overlayText": "genmedia: مستقبل الإعلان",
+        "approved": true,
+        "status": "pending",
+        "physicsSimulationNote": "Real-world physics: specular reflections, accurate depth-of-field optics, and natural fluid/particle motion",
+        "versionHistory": [],
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "genmedia — The Ultimate Reveal"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "genmedia: مستقبل الإعلان"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      }
+    ],
+    "soundtrack": {
+      "mood": "Cinematic orchestral fusion featuring a soulful Oud melody, deep cinematic sub-bass, and ethereal atmospheric pads.",
+      "prompt": "Luxury Arabian commercial soundtrack, elegant oud solo, deep bass pulses, shimmering chimes, cinematic strings, 100 BPM, sophisticated and mysterious.",
+      "status": "idle",
+      "includeInFinalMix": true,
+      "volumeLevel": 0.85,
+      "history": []
+    },
+    "finalRender": {
+      "status": "idle",
+      "ffmpegCommandLog": ""
+    },
+    "createdAt": "2026-09-26T11:27:32.210Z",
+    "updatedAt": "2026-09-26T17:26:03.425Z",
+    "referenceImageUrl": "",
+    "localizedVariants": []
+  },
+  {
+    "id": "camp_muia5a9x",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "brandName": "OUD AL AMEER",
+    "productDescription": "\"Create a luxurious cinematic advertisement for OUD AL AMEER, a premium Arabic oud perfume brand. Feature an elegant black and gold perfume bottle surrounded by rich oud wood, golden Arabian desert dunes, and soft drifting incense smoke. Use warm golden lighting, sophisticated camera movements, and a royal Middle Eastern aesthetic. Highlight the bottle's craftsmanship and the richness of the fragrance. The mood should feel luxurious, mysterious, and timeless. End with the brand name OUD AL AMEER and the tagline: 'The Essence of Arabian Royalty.'\"",
+    "targetAudience": "Luxury fragrance enthusiasts, premium perfume buyers, and people who appreciate Arabian oud, elegance, and sophisticated fragrances.",
+    "campaignObjective": "Create a premium cinematic advertisement that showcases the elegance, richness, and heritage of OUD AL AMEER. Build emotional desire for the fragrance and establish the brand as a symbol of Arabian luxury. End with a memorable Arabic voiceover and a premium brand reveal.",
+    "creativeStyle": "Cinematic luxury Arabian perfume commercial. Black and gold color palette, warm golden desert lighting, elegant Arabic-inspired architecture, drifting incense smoke, floating golden dust particles, rich shadows, slow-motion product shots, smooth camera movements, macro close-ups, realistic reflections, and premium commercial cinematography. Maintain the same perfume bottle design, label, cap, and colors in every scene. All voiceovers and spoken dialogue must be in Arabic only, using a sophistica",
+    "durationSeconds": 30,
+    "aspectRatio": "16:9",
+    "language": "Arabic",
+    "status": "video_production",
+    "plan": {
+      "creativeConcept": "The Royal Mirage: A sensory journey through the heart of the Arabian desert, where ancient oud wood transforms into modern liquid gold, embodied by the OUD AL AMEER fragrance.",
+      "campaignMessage": "عود الأمير: جوهر الملكية العربية",
+      "visualIdentity": {
+        "colorPalette": [
+          "Obsidian Black (#0A0A0A)",
+          "Royal Gold (#D4AF37)",
+          "Deep Amber (#FFBF00)",
+          "Sahara Sand (#F5DEB3)"
+        ],
+        "lightingStyle": "Chiaroscuro lighting with high-contrast golden highlights, warm rim lighting, and volumetric light beams through incense smoke.",
+        "lensAndFraming": "Anamorphic 35mm and 100mm Macro; shallow depth of field (f/2.8) to emphasize texture and product craftsmanship.",
+        "continuityAnchors": "Cylindrical matte black perfume bottle, polished gold geometric cap, gold-embossed Arabic calligraphy label 'OUD AL AMEER'."
+      },
+      "musicalMood": "Epic Orchestral Middle Eastern: Deep Oud strings, rhythmic darbuka, and ethereal cinematic pads.",
+      "soundtrackPrompt": "A cinematic blend of traditional Arabic Oud melodies and deep orchestral cellos, building tension with rhythmic percussion and ending with a resonant, royal brass flourish."
+    },
+    "scenes": [
+      {
+        "id": "scene_1_muia5iy0",
+        "sceneNumber": 1,
+        "title": "The Golden Dawn",
+        "durationSeconds": 6,
+        "imagePrompt": "Wide cinematic shot of rolling golden sand dunes under a hazy golden hour sky. In the foreground, thin wisps of white incense smoke drift across the frame. Warm golden lighting (#D4AF37). High contrast shadows. 16:9 aspect ratio.",
+        "videoPrompt": "Smooth low-angle drone flyover of desert dunes. Realistic wind dynamics blowing fine sand particles across the crests. Volumetric smoke drifting naturally according to air currents.. Conversational Physics & Camera Edit: add arabic voice over. Conversational Physics & Camera Edit: add subtitles",
+        "cameraMovement": "Slow forward tracking shot (dolly in) through the dunes.",
+        "audioDirection": "The sound of wind whispering through sand, followed by the deep, resonating first note of an Oud.",
+        "transitionType": "dissolve",
+        "overlayText": "فخامة تتجاوز الزمن",
+        "approved": true,
+        "status": "video_ready",
+        "physicsSimulationNote": "Conversational Physics Edit: add subtitles",
+        "versionHistory": [
+          {
+            "version": 2,
+            "timestamp": "2026-09-26T11:24:51.665Z",
+            "instruction": "add subtitles",
+            "imageUrl": "/assets/images/scene_1_muia5iy0_1790420535048.jpg",
+            "videoUrl": "/assets/videos/scene_1_muia5iy0_v3_1790421917673.mp4",
+            "cameraMovement": "Slow forward tracking shot (dolly in) through the dunes.",
+            "videoPrompt": "Smooth low-angle drone flyover of desert dunes. Realistic wind dynamics blowing fine sand particles across the crests. Volumetric smoke drifting naturally according to air currents.. Conversational Physics & Camera Edit: add arabic voice over",
+            "directorNotes": "Applied multi-turn physics/camera edit via gemini-omni-1.1-flash: \"add arabic voice over\"",
+            "interactionId": "v1_ChdhcWEzYXNDb0Y3RDg0LUVQd3QyM21RMBIXSEttM2FwMkNGNTJ3ZzhVUGl0V0UtUTQ"
+          }
+        ],
+        "imageUrl": "/assets/images/scene_1_muia5iy0_1790420535048.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 3232,
+        "resolutionTag": "1K (1024px)",
+        "videoUrl": "/assets/videos/scene_1_muia5iy0_v3_1790421917673.mp4",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "videoLatencyMs": 27447,
+        "interactionId": "v1_ChdhcWEzYXNDb0Y3RDg0LUVQd3QyM21RMBIXSEttM2FwMkNGNTJ3ZzhVUGl0V0UtUTQ",
+        "directorNotes": "Applied multi-turn physics & camera edit (Slow forward tracking shot (dolly in) through the dunes.) via gemini-omni-1.1-flash: \"add subtitles\"",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "OUD AL AMEER — The Golden Dawn"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "فخامة تتجاوز الزمن"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "id": "scene_2_muia5iy0",
+        "sceneNumber": 2,
+        "title": "The Heart of Oud",
+        "durationSeconds": 6,
+        "imagePrompt": "Macro close-up of a piece of dark, resinous oud wood. Golden amber resin droplets oozing from the grain. Floating golden dust particles in the air. Soft golden rim lighting. 16:9 aspect ratio.",
+        "videoPrompt": "Extreme macro shot showing slow-motion fluid dynamics of viscous amber resin dripping. Specular reflections on the liquid surface. Particles suspended in light beams (Tyndall effect).. Conversational Physics & Camera Edit: add arabic voice over",
+        "cameraMovement": "Extreme slow-motion zoom into the wood grain.",
+        "audioDirection": "Soft crackling of burning oud wood, layered with a low-frequency cinematic pulse.",
+        "transitionType": "fade",
+        "overlayText": "أصالة العود الكمبودي",
+        "approved": true,
+        "status": "video_ready",
+        "physicsSimulationNote": "Conversational Physics Edit: add arabic voice over",
+        "versionHistory": [
+          {
+            "version": 1,
+            "timestamp": "2026-09-26T11:13:38.635Z",
+            "instruction": "add arabic voice over",
+            "imageUrl": "/assets/images/scene_2_muia5iy0_1790420540701.jpg",
+            "videoUrl": "/assets/videos/scene_2_muia5iy0_v2_1790421292419.mp4",
+            "cameraMovement": "Extreme slow-motion zoom into the wood grain.",
+            "videoPrompt": "Extreme macro shot showing slow-motion fluid dynamics of viscous amber resin dripping. Specular reflections on the liquid surface. Particles suspended in light beams (Tyndall effect).",
+            "directorNotes": "Generated native physics-accurate video clip via gemini-omni-1.1-flash (Extreme slow-motion zoom into the wood grain.)",
+            "interactionId": "v1_ChdrYWEzYXFEeEVJSFVxZmtQbG9UWXdBdxIXa2FhM2FxRHhFSUhVcWZrUGxvVFl3QXc"
+          }
+        ],
+        "imageUrl": "/assets/images/scene_2_muia5iy0_1790420540701.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 4450,
+        "resolutionTag": "1K (1024px)",
+        "videoUrl": "/assets/videos/scene_2_muia5iy0_v2_1790421292419.mp4",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "videoLatencyMs": 73907,
+        "interactionId": "v1_ChdrYWEzYXFEeEVJSFVxZmtQbG9UWXdBdxIXS0ttM2FzYU1BNXItNC1FUHc0WHd5UXc",
+        "directorNotes": "Applied multi-turn physics/camera edit via gemini-omni-1.1-flash: \"add arabic voice over\"",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "OUD AL AMEER — The Heart of Oud"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "أصالة العود الكمبودي"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "id": "scene_3_muia5iy0",
+        "sceneNumber": 3,
+        "title": "The Royal Reveal",
+        "durationSeconds": 6,
+        "imagePrompt": "Close-up of the OUD AL AMEER bottle. Matte black cylindrical body with a heavy gold geometric cap. The label shows gold-embossed Arabic calligraphy. Backlit by warm amber light. 16:9 aspect ratio.",
+        "videoPrompt": "Light sweep across the gold cap, showing realistic metallic reflections and micro-scratches. Smoke curls around the bottle base, reacting to the bottle's geometry (collision physics).. Conversational Physics & Camera Edit: add arabic voice over",
+        "cameraMovement": "Rotating orbital shot around the perfume cap.",
+        "audioDirection": "Sophisticated Arabic male voiceover: 'للباحثين عن القمة والتميز'",
+        "transitionType": "fade",
+        "overlayText": "تصميم يعكس الهيبة",
+        "approved": true,
+        "status": "video_ready",
+        "physicsSimulationNote": "Conversational Physics Edit: add arabic voice over",
+        "versionHistory": [
+          {
+            "version": 1,
+            "timestamp": "2026-09-26T11:13:45.245Z",
+            "instruction": "add arabic voice over",
+            "imageUrl": "/assets/images/scene_3_muia5iy0_1790420545599.jpg",
+            "videoUrl": "/assets/videos/scene_3_muia5iy0_v2_1790421310318.mp4",
+            "cameraMovement": "Rotating orbital shot around the perfume cap.",
+            "videoPrompt": "Light sweep across the gold cap, showing realistic metallic reflections and micro-scratches. Smoke curls around the bottle base, reacting to the bottle's geometry (collision physics).",
+            "directorNotes": "Generated native physics-accurate video clip via gemini-omni-1.1-flash (Rotating orbital shot around the perfume cap.)",
+            "interactionId": "v1_ChZ1NmEzYXVPcUNfLWpxZmtQc01heENBEhZ1NmEzYXVPcUNfLWpxZmtQc01heENB"
+          }
+        ],
+        "imageUrl": "/assets/images/scene_3_muia5iy0_1790420545599.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 3801,
+        "resolutionTag": "1K (1024px)",
+        "videoUrl": "/assets/videos/scene_3_muia5iy0_v2_1790421310318.mp4",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "videoLatencyMs": 85193,
+        "interactionId": "v1_ChZ1NmEzYXVPcUNfLWpxZmtQc01heENBEhdPYW0zYXZ6OUdmS3RqdU1QejVPRThBSQ",
+        "directorNotes": "Applied multi-turn physics/camera edit via gemini-omni-1.1-flash: \"add arabic voice over\"",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "OUD AL AMEER — The Royal Reveal"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "تصميم يعكس الهيبة"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "id": "scene_4_muia5iy0",
+        "sceneNumber": 4,
+        "title": "Liquid Gold",
+        "durationSeconds": 6,
+        "imagePrompt": "Mid-shot of the OUD AL AMEER bottle. A spray of fine mist emerges from the nozzle, catching the golden light like liquid diamonds. Dark background with rich shadows. 16:9 aspect ratio.",
+        "videoPrompt": "High-speed phantom camera footage of perfume mist dispersal. Realistic aerosol physics, droplets refracting light. The mist swirls into the shape of a royal crown momentarily.. Conversational Physics & Camera Edit: add arabic voice over",
+        "cameraMovement": "Slow motion pull-away (dolly out).",
+        "audioDirection": "The crisp 'shhh' of a premium atomizer followed by a swell in the orchestral music.",
+        "transitionType": "fade",
+        "overlayText": "رائحة الملوك",
+        "approved": true,
+        "status": "video_ready",
+        "physicsSimulationNote": "Conversational Physics Edit: add arabic voice over",
+        "versionHistory": [
+          {
+            "version": 1,
+            "timestamp": "2026-09-26T11:14:08.082Z",
+            "instruction": "add arabic voice over",
+            "imageUrl": "/assets/images/scene_4_muia5iy0_1790420549597.jpg",
+            "videoUrl": "/assets/videos/scene_4_muia5iy0_v2_1790421327960.mp4",
+            "cameraMovement": "Slow motion pull-away (dolly out).",
+            "videoPrompt": "High-speed phantom camera footage of perfume mist dispersal. Realistic aerosol physics, droplets refracting light. The mist swirls into the shape of a royal crown momentarily.",
+            "directorNotes": "Generated native physics-accurate video clip via gemini-omni-1.1-flash (Slow motion pull-away (dolly out).)",
+            "interactionId": "v1_Chc1YWEzYXRQU0NvakdnOFVQeTY2SWlBRRIXNWFhM2F0UFNDb2pHZzhVUHk2NklpQUU"
+          }
+        ],
+        "imageUrl": "/assets/images/scene_4_muia5iy0_1790420549597.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 3996,
+        "resolutionTag": "1K (1024px)",
+        "videoUrl": "/assets/videos/scene_4_muia5iy0_v2_1790421327960.mp4",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "videoLatencyMs": 80005,
+        "interactionId": "v1_Chc1YWEzYXRQU0NvakdnOFVQeTY2SWlBRRIXU3FtM2F1M1JFLUc2ZzhVUHFfZndxUTg",
+        "directorNotes": "Applied multi-turn physics/camera edit via gemini-omni-1.1-flash: \"add arabic voice over\"",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "OUD AL AMEER — Liquid Gold"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "رائحة الملوك"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "id": "scene_5_muia5iy0",
+        "sceneNumber": 5,
+        "title": "The Legacy",
+        "durationSeconds": 6,
+        "imagePrompt": "Full product shot of OUD AL AMEER bottle standing on a polished black marble surface reflecting the gold cap. Elegant Arabic arches in the blurred background. Brand logo in gold. 16:9 aspect ratio.",
+        "videoPrompt": "The camera stabilizes on the bottle as golden sparks rain down slowly. Reflections on the marble surface are perfect and real-time. Subtle flickering of torchlight in the background.. Conversational Physics & Camera Edit: add arabic over",
+        "cameraMovement": "Static centered shot with slow digital zoom in.",
+        "audioDirection": "Voiceover: 'عود الأمير: جوهر الملكية العربية'. Final resonant drum hit.",
+        "transitionType": "fade",
+        "overlayText": "عود الأمير - جوهر الملكية العربية",
+        "approved": true,
+        "status": "video_ready",
+        "physicsSimulationNote": "Conversational Physics Edit: add arabic over",
+        "versionHistory": [
+          {
+            "version": 1,
+            "timestamp": "2026-09-26T11:14:22.278Z",
+            "instruction": "add arabic over",
+            "imageUrl": "/assets/images/scene_5_muia5iy0_1790420553237.jpg",
+            "videoUrl": "/assets/videos/scene_5_muia5iy0_v2_1790421338374.mp4",
+            "cameraMovement": "Static centered shot with slow digital zoom in.",
+            "videoPrompt": "The camera stabilizes on the bottle as golden sparks rain down slowly. Reflections on the marble surface are perfect and real-time. Subtle flickering of torchlight in the background.",
+            "directorNotes": "Generated native physics-accurate video clip via gemini-omni-1.1-flash (Static centered shot with slow digital zoom in.)",
+            "interactionId": "v1_ChdEYWUzYXBTZkxwajFnOFVQd1pXQ3FBYxIXRGFlM2FwU2ZMcGoxZzhVUHdaV0NxQWM"
+          }
+        ],
+        "imageUrl": "/assets/images/scene_5_muia5iy0_1790420553237.jpg",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "generationLatencyMs": 3638,
+        "resolutionTag": "1K (1024px)",
+        "videoUrl": "/assets/videos/scene_5_muia5iy0_v2_1790421338374.mp4",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "videoLatencyMs": 76215,
+        "interactionId": "v1_ChdEYWUzYXBTZkxwajFnOFVQd1pXQ3FBYxIXVnFtM2FyR0REYWU1ZzhVUHdPcThzUXc",
+        "directorNotes": "Applied multi-turn physics/camera edit via gemini-omni-1.1-flash: \"add arabic over\"",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "OUD AL AMEER — The Legacy"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "عود الأمير - جوهر الملكية العربية"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      }
+    ],
+    "soundtrack": {
+      "mood": "Epic Orchestral Middle Eastern: Deep Oud strings, rhythmic darbuka, and ethereal cinematic pads.",
+      "prompt": "A cinematic blend of traditional Arabic Oud melodies and deep orchestral cellos, building tension with rhythmic percussion and ending with a resonant, royal brass flourish.",
+      "status": "ready",
+      "includeInFinalMix": true,
+      "volumeLevel": 0.85,
+      "history": [],
+      "audioUrl": "/assets/audio/soundtrack_camp_muia5a9x_1790420779423.mp3",
+      "modelUsed": "lyria-3.5",
+      "generatedLyricsOrNotes": "[[A0]]\n[[B1]]\n[[C2]]\n[[D3]]"
+    },
+    "finalRender": {
+      "status": "completed",
+      "videoUrl": "/assets/renders/ad_camp_muia5a9x_1790421791369.mp4",
+      "renderedAt": "2026-09-26T11:23:12.286Z",
+      "resolution": "1280x720",
+      "fps": 24,
+      "durationSeconds": 30,
+      "fileSizeBytes": 6526554,
+      "ffmpegCommandLog": "ffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_1_muia5iy0_v2_1790421280416.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muia5a9x_1790421771099/seg_00.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_2_muia5iy0_v2_1790421292419.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muia5a9x_1790421771099/seg_01.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_3_muia5iy0_v2_1790421310318.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muia5a9x_1790421771099/seg_02.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_4_muia5iy0_v2_1790421327960.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muia5a9x_1790421771099/seg_03.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_5_muia5iy0_v2_1790421338374.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muia5a9x_1790421771099/seg_04.mp4\n\nffmpeg -y -f concat -safe 0 -i /app/applet/public/assets/temp/camp_muia5a9x_1790421771099/concat_list.txt -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_muia5a9x_1790421771099/concatenated_video.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_muia5a9x_1790421771099/concatenated_video.mp4 -stream_loop -1 -i /app/applet/public/assets/audio/soundtrack_camp_muia5a9x_1790420779423.mp3 -t 30 -filter:a volume=0.85,afade=t=in:st=0:d=0.6,afade=t=out:st=28.50:d=1.4 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -shortest /app/applet/public/assets/renders/ad_camp_muia5a9x_1790421791369.mp4",
+      "validationReport": {
+        "valid": true,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "width": 1280,
+        "height": 720,
+        "durationSeconds": 30,
+        "frameCount": 720,
+        "hasAudioStream": true,
+        "fileSizeBytes": 6526554,
+        "checkedAt": "2026-09-26T11:23:12.283Z"
+      }
+    },
+    "createdAt": "2026-09-26T11:02:05.352Z",
+    "updatedAt": "2026-09-26T17:26:03.425Z",
+    "referenceImageUrl": "",
+    "localizedVariants": []
+  },
+  {
+    "id": "camp_mui84otq",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "brandName": "VELOCE CARBON",
+    "productDescription": "Ultralight monocoque carbon-fiber commuter e-bike with integrated laser-etched LED cockpit and silent harmonic drive.",
+    "targetAudience": "Urban architects, tech founders, and design-forward city riders",
+    "campaignObjective": "Demonstrate effortless speed and sculptural minimalism across wet neon city streets",
+    "creativeStyle": "Neo-Noir Architectural Tracking Shots, Rain-Slicked Reflections, Sodium Vapor & Cyan Accents",
+    "durationSeconds": 15,
+    "aspectRatio": "16:9",
+    "language": "English",
+    "status": "video_production",
+    "plan": {
+      "campaignMessage": "VELOCE CARBON: Precision in Motion.",
+      "creativeConcept": "The Ghost in the Architecture: A study of silence and structural elegance where the VELOCE CARBON becomes an extension of the city's modern geometry.",
+      "soundtrackPrompt": "A heavy, rhythmic analog synth pulse with a high-frequency digital hum representing the silent harmonic drive, layered with the sound of rain on pavement and distant city echoes.",
+      "musicalMood": "Sophisticated Industrial Techno-Ambient",
+      "visualIdentity": {
+        "continuityAnchors": "Matte black monocoque carbon fiber frame, integrated cyan LED cockpit strip, rain-slicked carbon textures.",
+        "lightingStyle": "Neo-noir high-contrast low-key lighting with wet-down surfaces and rim-lit silhouettes.",
+        "lensAndFraming": "35mm anamorphic, low-angle tracking shots and architectural wide frames with shallow depth of field.",
+        "colorPalette": [
+          "Obsidian Black (#0A0A0A)",
+          "Sodium Vapor Orange (#FFB347)",
+          "Electric Cyan (#00FFFF)",
+          "Asphalt Grey (#2F2F2F)"
+        ]
+      }
+    },
+    "scenes": [
+      {
+        "videoUrl": "/assets/videos/scene_1_mui84xnd_v1_1790417232914.mp4",
+        "interactionId": "v1_ChdUSm0zYXB2NkVacTJnOFVQenVtMXVRYxIXVEptM2FwdjZFWnEyZzhVUHp1bTF1UWM",
+        "imageUrl": "/assets/images/scene_1_mui84xnd_1790417148297.jpg",
+        "approved": true,
+        "status": "video_ready",
+        "title": "The Awakening",
+        "cameraMovement": "Slow horizontal slider pan right to left.",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "sceneNumber": 1,
+        "videoPrompt": "Extreme close-up panning across the laser-etched LED cockpit of the VELOCE CARBON, cyan lights pulsing softly, rain droplets vibrating on the frame, blurred neo-noir city lights in the background, cinematic 4k.. Director Edit: introduxction in spanish",
+        "overlayText": "SILENT. HARMONIC. DRIVE.",
+        "durationSeconds": 3.75,
+        "versionHistory": [],
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "imagePrompt": "Macro shot of the VELOCE CARBON matte black monocoque frame, integrated LED cockpit glowing cyan (#00FFFF), raindrops on laser-etched carbon fiber, sodium vapor orange (#FFB347) reflections, anamorphic lens, 16:9.",
+        "transitionType": "fade",
+        "id": "scene_1_mui84xnd",
+        "audioDirection": "Subtle digital power-up hum, the sound of a single rain drop hitting carbon fiber.",
+        "directorNotes": "Applied edit via gemini-omni-1.1-flash: \"introduxction in spanish\"",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 1.9,
+            "text": "VELOCE CARBON — The Awakening"
+          },
+          {
+            "startSeconds": 1.9,
+            "endSeconds": 3.75,
+            "text": "SILENT. HARMONIC. DRIVE."
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "imagePrompt": "Low-angle tracking shot of VELOCE CARBON wheels on wet asphalt, cyan LED light trails from the frame, sodium vapor street lamps, brutalist concrete architecture in background, obsidian black bike frame, 16:9.",
+        "interactionId": "v1_ChdpNW0zYXItYkVvX1NnOFVQb0o2a2tBNBIXaTVtM2FyLWJFb19TZzhVUG9KNmtrQTQ",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "cameraMovement": "Low-to-ground pursuit tracking shot.",
+        "overlayText": "ULTRALIGHT MONOCOQUE.",
+        "videoPrompt": "Fast low-angle tracking shot following the VELOCE CARBON wheels spinning through puddles, water splashing in slow motion, reflections of cyan and orange neon dancing on the wet ground, high speed shutter.. Director Edit: add subtitles in english and spanish",
+        "sceneNumber": 2,
+        "durationSeconds": 3.75,
+        "status": "video_ready",
+        "id": "scene_2_mui84xnd",
+        "transitionType": "fade",
+        "videoUrl": "/assets/videos/scene_2_mui84xnd_v1_1790417296748.mp4",
+        "imageUrl": "/assets/images/scene_2_mui84xnd_1790417153589.jpg",
+        "approved": true,
+        "audioDirection": "Rhythmic splashing of water, low-frequency synth bass pulse.",
+        "title": "Kinetic Geometry",
+        "directorNotes": "Applied edit via gemini-omni-1.1-flash: \"add subtitles in english and spanish\"",
+        "versionHistory": [],
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 1.9,
+            "text": "VELOCE CARBON — Kinetic Geometry"
+          },
+          {
+            "startSeconds": 1.9,
+            "endSeconds": 3.75,
+            "text": "ULTRALIGHT MONOCOQUE."
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "durationSeconds": 3.75,
+        "overlayText": "EFFORTLESS SPEED.",
+        "versionHistory": [],
+        "sceneNumber": 3,
+        "videoPrompt": "Medium tracking shot of a rider on the VELOCE CARBON carving through a neon-lit intersection, effortless movement, silent speed, rain-slicked pavement reflecting the cyan frame lights, neo-noir atmosphere.",
+        "imageUrl": "/assets/images/scene_3_mui84xnd_1790417158774.jpg",
+        "approved": true,
+        "imagePrompt": "Urban architect rider in dark tech-wear on VELOCE CARBON, leaning into a sharp turn on a wet city street, cyan rim lighting, sodium vapor glow, tall minimalist buildings, 16:9.",
+        "title": "The Urban Architect",
+        "audioDirection": "Whir of the harmonic drive, wind rushing sound.",
+        "transitionType": "fade",
+        "id": "scene_3_mui84xnd",
+        "cameraMovement": "Dynamic arc shot following the lean of the bike.",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "status": "image_ready",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 1.9,
+            "text": "VELOCE CARBON — The Urban Architect"
+          },
+          {
+            "startSeconds": 1.9,
+            "endSeconds": 3.75,
+            "text": "EFFORTLESS SPEED."
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "versionHistory": [],
+        "title": "Sculptural Stance",
+        "audioDirection": "Echoing city ambience, synth pulse fades into a final digital chime.",
+        "status": "image_ready",
+        "transitionType": "fade",
+        "durationSeconds": 3.75,
+        "cameraMovement": "Slow push-out (dolly back).",
+        "imagePrompt": "VELOCE CARBON parked against a brutalist glass building, cyan LED cockpit glowing, rain-slicked ground, cinematic wide shot, sodium vapor background bokeh, 'VELOCE' logo visible on frame, 16:9.",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "videoPrompt": "Slow zoom out from the VELOCE CARBON bike parked in a rain-drenched urban plaza, atmospheric mist, flickering sodium vapor lights, the cyan LED strip remains the sharpest point of light, cinematic finish.",
+        "sceneNumber": 4,
+        "id": "scene_4_mui84xnd",
+        "overlayText": "VELOCE CARBON. DESIGN THE RIDE.",
+        "approved": true,
+        "imageUrl": "/assets/images/scene_4_mui84xnd_1790417164165.jpg",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 1.9,
+            "text": "VELOCE CARBON — Sculptural Stance"
+          },
+          {
+            "startSeconds": 1.9,
+            "endSeconds": 3.75,
+            "text": "VELOCE CARBON. DESIGN THE RIDE."
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      }
+    ],
+    "soundtrack": {
+      "mood": "Sophisticated Industrial Techno-Ambient",
+      "includeInFinalMix": true,
+      "volumeLevel": 0.85,
+      "prompt": "A heavy, rhythmic analog synth pulse with a high-frequency digital hum representing the silent harmonic drive, layered with the sound of rain on pavement and distant city echoes.",
+      "status": "idle",
+      "history": []
+    },
+    "finalRender": {
+      "status": "idle",
+      "ffmpegCommandLog": ""
+    },
+    "createdAt": "2026-09-26T10:05:38.521Z",
+    "updatedAt": "2026-09-26T17:26:03.425Z",
+    "referenceImageUrl": "",
+    "localizedVariants": []
+  },
+  {
+    "id": "camp_mui76k11",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "brandName": "🧸 NANHE KADAM — Baby Toys",
+    "productDescription": "NANHE KADAM is a playful baby toy brand offering soft plush animals, colorful stacking blocks, rattles, and sensory toys designed for little hands. Made with child-friendly materials and gentle pastel colors, the collection encourages joyful play, sensory exploration, and early learning.",
+    "targetAudience": "Parents, young families, and gift buyers with babies and toddlers aged 0–3 years who seek adorable, engaging, and child-friendly toys that encourage playful discovery.",
+    "campaignObjective": "Warm, heartwarming baby commercial, soft pastel pink, sky blue, mint green, and cream palette, natural morning sunlight, cozy nursery setting, adorable plush elephant, colorful stacking blocks, gentle camera movements, close-up shots of tiny hands exploring toys, joyful baby expressions, soft cinematic lighting, realistic textures, and premium family-friendly advertising aesthetic.",
+    "creativeStyle": "High-Contrast Editorial Film, Emerald & Warm Terracotta Lighting, Slow-Motion Condensation",
+    "durationSeconds": 15,
+    "aspectRatio": "9:16",
+    "language": "Hindi",
+    "status": "completed",
+    "plan": {
+      "musicalMood": "Whimsical yet sophisticated; a blend of soft acoustic guitar, light glockenspiel notes, and the organic sound of a baby's soft giggle.",
+      "visualIdentity": {
+        "lensAndFraming": "35mm and 85mm macro lenses for shallow depth of field; intimate close-ups and medium shots with a 9:16 vertical orientation.",
+        "lightingStyle": "High-contrast editorial lighting; morning sunlight filtered through windows with emerald rim highlights and warm terracotta fill light to define textures.",
+        "continuityAnchors": "Recurring 6-month-old baby with soft curls, a signature plush elephant with a mint green ribbon, and slow-motion condensation droplets on a glass pane in the background.",
+        "colorPalette": [
+          "Pastel Pink (#FFD1DC)",
+          "Sky Blue (#87CEEB)",
+          "Mint Green (#98FF98)",
+          "Cream (#FFFDD0)",
+          "Emerald Green (Accent)",
+          "Warm Terracotta (Shadows)"
+        ]
+      },
+      "soundtrackPrompt": "A gentle, heartwarming acoustic folk track with a light tempo, featuring a soft fingerstyle guitar melody, ethereal wind chimes, and minimal ambient room tone of a quiet nursery.",
+      "creativeConcept": "The 'Emerald Dawn' Concept: Merging high-contrast editorial cinematography with the soft, nurturing world of infancy. We use emerald-toned rim lighting and warm terracotta fill to elevate the standard pastel baby aesthetic into a premium, cinematic experience, focusing on the tactile discovery of Nanhe Kadam toys.",
+      "campaignMessage": "Nanhe Kadam: Har Khel Mein Ek Nayi Seekh, Har Pal Mein Ek Muskaan."
+    },
+    "scenes": [
+      {
+        "versionHistory": [],
+        "status": "image_ready",
+        "durationSeconds": 4,
+        "imagePrompt": "Close-up of a baby's tiny hand reaching for a soft plush elephant toy. The elephant is cream-colored with a mint green ribbon. Lighting is high-contrast with emerald rim light on the plush texture and warm terracotta shadows. In the background, a window shows slow-motion condensation. 9:16 aspect ratio, cinematic editorial style.",
+        "transitionType": "fade",
+        "sceneNumber": 1,
+        "videoPrompt": "Slow-motion 60fps shot. A baby's hand slowly enters the frame to touch the ear of a plush elephant. The emerald lighting catches the fuzz of the toy. Dust motes dance in a beam of morning sunlight. High-contrast film grain, editorial fashion aesthetic.",
+        "overlayText": "कोमल स्पर्श (Soft Touch)",
+        "audioDirection": "Soft fabric rustle sound, a single high-pitched glockenspiel note.",
+        "title": "The First Touch",
+        "imageUrl": "/assets/images/scene_1_mui76tmx_1790415570255.jpg",
+        "approved": true,
+        "id": "scene_1_mui76tmx",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "cameraMovement": "Slow push-in macro shot focusing on the point of contact between hand and toy.",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 2,
+            "text": "🧸 NANHE KADAM — Baby Toys — The First Touch"
+          },
+          {
+            "startSeconds": 2,
+            "endSeconds": 4,
+            "text": "कोमल स्पर्श (Soft Touch)"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "versionHistory": [],
+        "title": "Colors of Learning",
+        "transitionType": "fade",
+        "audioDirection": "Gentle wooden block clinking sound, soft baby cooing.",
+        "id": "scene_2_mui76tmx",
+        "overlayText": "रंगों की दुनिया (World of Colors)",
+        "sceneNumber": 2,
+        "videoPrompt": "The baby sits in a cozy nursery, reaching for a sky blue block. The camera captures the baby's focused expression in slow motion. Light reflects off the condensation on a window behind. Rich textures, cinematic pastel palette.",
+        "status": "image_ready",
+        "imageUrl": "/assets/images/scene_2_mui76tmx_1790415575854.jpg",
+        "approved": true,
+        "imagePrompt": "A 6-month-old baby with soft curls looking at colorful stacking blocks in pastel pink, sky blue, and mint green. High-contrast editorial lighting with terracotta warmth on the baby's face. Emerald green highlights on the edges of the wooden blocks. 9:16 aspect ratio.",
+        "durationSeconds": 4,
+        "cameraMovement": "Low-angle tracking shot moving slightly left to right at baby's eye level.",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 2,
+            "text": "🧸 NANHE KADAM — Baby Toys — Colors of Learning"
+          },
+          {
+            "startSeconds": 2,
+            "endSeconds": 4,
+            "text": "रंगों की दुनिया (World of Colors)"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "title": "Sensory Exploration",
+        "versionHistory": [],
+        "transitionType": "fade",
+        "sceneNumber": 3,
+        "videoPrompt": "Macro video of the rattle being shaken gently in slow motion. The condensation on the background glass creates a bokeh effect. The high-contrast lighting emphasizes the tactile quality of the toy.",
+        "overlayText": "खेल-खेल में सीख (Learning through Play)",
+        "audioDirection": "Soft, rhythmic rattle sound with an emerald-like 'shimmer' reverb.",
+        "imagePrompt": "Extreme close-up of a sensory rattle toy with different textures. A baby's fingers explore the mint green fabric and smooth cream plastic. Emerald and terracotta lighting creates deep contrast. Editorial film style with slight motion blur. 9:16 aspect ratio.",
+        "status": "image_ready",
+        "durationSeconds": 3.5,
+        "approved": true,
+        "imageUrl": "/assets/images/scene_3_mui76tmx_1790415581444.jpg",
+        "id": "scene_3_mui76tmx",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "cameraMovement": "Static macro shot with shallow depth of field, focus shifting from toy to baby's smile in background.",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 1.8,
+            "text": "🧸 NANHE KADAM — Baby Toys — Sensory Exploration"
+          },
+          {
+            "startSeconds": 1.8,
+            "endSeconds": 3.5,
+            "text": "खेल-खेल में सीख (Learning through Play)"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "durationSeconds": 3.5,
+        "status": "image_ready",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "cameraMovement": "Wide pull-back to reveal the full nursery setting and the logo overlay.",
+        "imagePrompt": "Full shot of a happy baby laughing, holding the plush elephant. The background is a soft pastel nursery with morning light. Nanhe Kadam logo in the center. Emerald rim lighting on the baby's silhouette. 9:16 aspect ratio.",
+        "id": "scene_4_mui76tmx",
+        "overlayText": "NANHE KADAM - खुशियों की शुरुआत",
+        "versionHistory": [],
+        "videoPrompt": "The baby hugs the plush elephant and laughs at the camera. The scene fades slightly to accommodate the brand logo. Cinematic editorial finish with warm terracotta glow and emerald accents.",
+        "sceneNumber": 4,
+        "title": "The Joyful Reveal",
+        "transitionType": "fade",
+        "audioDirection": "Bright baby giggle ending with a warm acoustic guitar strum.",
+        "imageUrl": "/assets/images/scene_4_mui76tmx_1790415586357.jpg",
+        "approved": true,
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 1.8,
+            "text": "🧸 NANHE KADAM — Baby Toys — The Joyful Reveal"
+          },
+          {
+            "startSeconds": 1.8,
+            "endSeconds": 3.5,
+            "text": "NANHE KADAM - खुशियों की शुरुआत"
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      }
+    ],
+    "soundtrack": {
+      "history": [],
+      "generatedLyricsOrNotes": "[[A0]]\n[[B1]]\n[[C2]]\n[[D3]]\n[[C4]]\n[[E5]]",
+      "status": "ready",
+      "audioUrl": "/assets/audio/soundtrack_camp_mui76k11_1790415633849.mp3",
+      "volumeLevel": 0.85,
+      "modelUsed": "lyria-3.5",
+      "includeInFinalMix": true,
+      "mood": "Whimsical yet sophisticated; a blend of soft acoustic guitar, light glockenspiel notes, and the organic sound of a baby's soft giggle.",
+      "prompt": "A gentle, heartwarming acoustic folk track with a light tempo, featuring a soft fingerstyle guitar melody, ethereal wind chimes, and minimal ambient room tone of a quiet nursery."
+    },
+    "finalRender": {
+      "status": "completed",
+      "fps": 24,
+      "renderedAt": "2026-09-26T09:40:48.227Z",
+      "ffmpegCommandLog": "ffmpeg -y -loop 1 -i /app/applet/public/assets/images/scene_1_mui76tmx_1790415570255.jpg -vf scale=1440:2560:force_original_aspect_ratio=increase,crop=1440:2560,zoompan=z='min(zoom+0.0012,1.18)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=96:s=720x1280:fps=24,format=yuv420p -t 4 -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui76k11_1790415636079/raw_motion_0.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_mui76k11_1790415636079/raw_motion_0.mp4 -t 4 -vf scale=720:1280,fps=24,format=yuv420p,drawtext=text='कोमल स्पर्श (Soft Touch)':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui76k11_1790415636079/seg_00.mp4\n\nffmpeg -y -loop 1 -i /app/applet/public/assets/images/scene_2_mui76tmx_1790415575854.jpg -vf scale=1440:2560:force_original_aspect_ratio=increase,crop=1440:2560,zoompan=z='1.12':x='(iw-iw/zoom)*(on/96)':y='ih/2-(ih/zoom/2)':d=96:s=720x1280:fps=24,format=yuv420p -t 4 -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui76k11_1790415636079/raw_motion_1.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_mui76k11_1790415636079/raw_motion_1.mp4 -t 4 -vf scale=720:1280,fps=24,format=yuv420p,drawtext=text='रंगों की दुनिया (World of Colors)':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui76k11_1790415636079/seg_01.mp4\n\nffmpeg -y -loop 1 -i /app/applet/public/assets/images/scene_3_mui76tmx_1790415581444.jpg -vf scale=1440:2560:force_original_aspect_ratio=increase,crop=1440:2560,zoompan=z='min(zoom+0.0012,1.18)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=84:s=720x1280:fps=24,format=yuv420p -t 3.5 -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui76k11_1790415636079/raw_motion_2.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_mui76k11_1790415636079/raw_motion_2.mp4 -t 3.5 -vf scale=720:1280,fps=24,format=yuv420p,drawtext=text='खेल-खेल में सीख (Learning through Play)':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.05:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui76k11_1790415636079/seg_02.mp4\n\nffmpeg -y -loop 1 -i /app/applet/public/assets/images/scene_4_mui76tmx_1790415586357.jpg -vf scale=1440:2560:force_original_aspect_ratio=increase,crop=1440:2560,zoompan=z='if(eq(on,1),1.18,max(1.0,zoom-0.0012))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=84:s=720x1280:fps=24,format=yuv420p -t 3.5 -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui76k11_1790415636079/raw_motion_3.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_mui76k11_1790415636079/raw_motion_3.mp4 -t 3.5 -vf scale=720:1280,fps=24,format=yuv420p,drawtext=text='NANHE KADAM - खुशियों की शुरुआत':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=3.05:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui76k11_1790415636079/seg_03.mp4\n\nffmpeg -y -f concat -safe 0 -i /app/applet/public/assets/temp/camp_mui76k11_1790415636079/concat_list.txt -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui76k11_1790415636079/concatenated_video.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_mui76k11_1790415636079/concatenated_video.mp4 -stream_loop -1 -i /app/applet/public/assets/audio/soundtrack_camp_mui76k11_1790415633849.mp3 -t 15 -filter:a volume=0.85,afade=t=in:st=0:d=0.6,afade=t=out:st=13.50:d=1.4 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -shortest /app/apple",
+      "resolution": "720x1280",
+      "durationSeconds": 15,
+      "validationReport": {
+        "hasAudioStream": true,
+        "frameCount": 360,
+        "audioCodec": "aac",
+        "checkedAt": "2026-09-26T09:40:48.224Z",
+        "valid": true,
+        "height": 1280,
+        "fileSizeBytes": 1368582,
+        "width": 720,
+        "durationSeconds": 15,
+        "videoCodec": "h264"
+      },
+      "fileSizeBytes": 1368582,
+      "videoUrl": "/assets/renders/ad_camp_mui76k11_1790415647785.mp4"
+    },
+    "createdAt": "2026-09-26T09:39:07.017Z",
+    "updatedAt": "2026-09-26T17:26:03.425Z",
+    "referenceImageUrl": "",
+    "localizedVariants": []
+  },
+  {
+    "id": "camp_mui3pgzj",
+    "ownerId": "72XDH1hN6TNeMkeLBAnyiZoFCvz1",
+    "brandName": "IRONFORGE FITNESS",
+    "productDescription": "IRONFORGE FITNESS is a premium strength and performance gym featuring state-of-the-art workout equipment, professional personal trainers, modern training facilities, dedicated strength zones, and a motivating environment designed to help members build strength, improve endurance, and transform their fitness.",
+    "targetAudience": "Fitness enthusiasts, young professionals, beginners, bodybuilders, and athletes aged 18–40 who want to build muscle, improve strength, lose fat, and achieve their fitness goals in a premium training environment.",
+    "campaignObjective": "Launch a high-impact promotional campaign for IRONFORGE FITNESS to increase brand awareness, attract new gym memberships, and inspire people to begin their fitness transformation through powerful visuals showcasing intense workouts, premium equipment, and a motivating atmosphere.",
+    "creativeStyle": "Cinematic sports commercial, dramatic low-key lighting, deep black and metallic red color palette, muscular athletes, intense workout close-ups, sweat particles in slow motion, powerful shadows, dramatic rim lighting, dynamic tracking shots, realistic gym environments, high-contrast visuals, energetic transitions, premium fitness brand aesthetic, and photorealistic commercial cinematography.",
+    "durationSeconds": 30,
+    "aspectRatio": "16:9",
+    "language": "English",
+    "status": "completed",
+    "plan": {
+      "visualIdentity": {
+        "lightingStyle": "Low-key chiaroscuro with dramatic crimson rim lighting and high-contrast shadows.",
+        "lensAndFraming": "Anamorphic 35mm for wide gym vistas and 85mm macro for intimate, high-detail sweat and muscle shots.",
+        "continuityAnchors": "Consistent IronForge logo on equipment, athletes wearing matte black performance gear with crimson accents, and visible sweat particles in every shot.",
+        "colorPalette": [
+          "Obsidian Black (#0A0A0A)",
+          "Metallic Crimson Red (#A51C30)",
+          "Brushed Steel Gray (#8E8E93)"
+        ]
+      },
+      "soundtrackPrompt": "Industrial rhythmic soundtrack, heavy metallic clangs synchronized with heartbeats, deep cinematic bass drops, high-energy building tempo, premium gritty atmosphere.",
+      "musicalMood": "Aggressive, cinematic industrial-trap with heavy metallic percussion and deep synth pulses.",
+      "campaignMessage": "FORGE YOUR STRENGTH. TRANSFORM YOUR LIFE. JOIN IRONFORGE FITNESS.",
+      "creativeConcept": "The Iron Forge: A transformation from raw potential into refined strength. This campaign treats the gym as a high-end workshop where the human body is forged using premium tools and atmospheric intensity."
+    },
+    "scenes": [
+      {
+        "audioDirection": "Loud, echoing clap sound followed by a deep atmospheric hum.",
+        "durationSeconds": 6,
+        "transitionType": "fade",
+        "directorNotes": "Applied edit via gemini-omni-1.1-flash: \"Extend the macro focus and add slow-motion atmospheric particles\"",
+        "status": "video_ready",
+        "overlayText": "RAW POTENTIAL.",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "versionHistory": [],
+        "videoPrompt": "Slow motion 120fps, white chalk dust floats through a beam of red light, athlete's hands grip a brushed steel barbell, intense focus, cinematic low-key lighting, depth of field.. Director Edit: Extend the macro focus and add slow-motion atmospheric particles",
+        "sceneNumber": 1,
+        "imagePrompt": "Close-up of muscular hands clapping weightlifting chalk in a dark gym, white powder exploding into the air against Obsidian Black shadows, Metallic Crimson Red rim light on the forearms, 85mm macro lens, photorealistic.",
+        "cameraMovement": "Static macro shot with internal motion of chalk dust.",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "title": "The Preparation",
+        "interactionId": "v1_ChdCSDIzYXBpZk5zbkZnOFVQcTdEdGlRRRIXQkgyM2FwaWZOc25GZzhVUHE3RHRpUUU",
+        "imageUrl": "/assets/images/scene_1_mui3pqf7_1790409828223.jpg",
+        "approved": true,
+        "id": "scene_1_mui3pqf7",
+        "videoUrl": "/assets/videos/scene_1_mui3pqf7_v1_1790409993319.mp4",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "IRONFORGE FITNESS — The Preparation"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "RAW POTENTIAL."
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "transitionType": "dissolve",
+        "title": "The Power Stroke",
+        "audioDirection": "Heavy metallic rattle of weights, deep guttural exhale.",
+        "directorNotes": "Applied edit via gemini-omni-1.1-flash: \"Make the lighting warmer golden hour with richer rim highlights\"",
+        "id": "scene_2_mui3pqf7",
+        "imagePrompt": "Low angle shot of a muscular athlete performing a heavy squat, state-of-the-art power rack with IronForge logo, Obsidian Black gym walls, Crimson Red LED strips in background, sweat glistening on skin, 35mm lens.",
+        "videoUrl": "/assets/videos/scene_2_mui3pqf7_v1_1790410062242.mp4",
+        "videoPrompt": "Dynamic tracking shot moving upward as the athlete rises from a squat, muscles tensing, sweat droplets flying in slow motion, dramatic high-contrast lighting, metallic red accents.. Director Edit: Make the lighting warmer golden hour with richer rim highlights",
+        "sceneNumber": 2,
+        "versionHistory": [],
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "overlayText": "FORGED IN INTENSITY.",
+        "imageUrl": "/assets/images/scene_2_mui3pqf7_1790409832532.jpg",
+        "approved": true,
+        "durationSeconds": 6,
+        "cameraMovement": "Vertical pedestal up following the athlete's movement.",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "interactionId": "v1_ChdTWDIzYXNqV0Z1LWpxZmtQbC0zNDRBdxIXU1gyM2FzaldGdS1qcWZrUGwtMzQ0QXc",
+        "status": "video_ready",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "IRONFORGE FITNESS — The Power Stroke"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "FORGED IN INTENSITY."
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "audioDirection": "Rhythmic mechanical whirring of gym cables and metallic clinking.",
+        "interactionId": "v1_ChdnMzIzYXB2S0pkM1hxZmtQbnJMMHlRdxIXZzMyM2FwdktKZDNYcWZrUG5yTDB5UXc",
+        "transitionType": "wipeleft",
+        "status": "video_ready",
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "versionHistory": [],
+        "id": "scene_3_mui3pqf7",
+        "title": "Unrivaled Equipment",
+        "overlayText": "PREMIUM PERFORMANCE.",
+        "cameraMovement": "Orbital Pan Right",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "sceneNumber": 3,
+        "videoPrompt": "Slider shot across a row of premium black and red dumbbells leading to an athlete performing heavy rows, dramatic rim lighting, hyper-realistic textures of metal and sweat.. Director Edit: Change the camera movement to a smooth orbital pan right",
+        "imagePrompt": "Detailed close-up of high-end gym cable machine pulley moving, brushed steel finish, IronForge branding visible, Metallic Crimson Red highlights, dark moody environment, professional cinematic quality.",
+        "directorNotes": "Applied edit via gemini-omni-1.1-flash: \"Change the camera movement to a smooth orbital pan right\"",
+        "durationSeconds": 6,
+        "videoUrl": "/assets/videos/scene_3_mui3pqf7_v1_1790410119792.mp4",
+        "imageUrl": "/assets/images/scene_3_mui3pqf7_1790409836317.jpg",
+        "approved": true,
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "IRONFORGE FITNESS — Unrivaled Equipment"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "PREMIUM PERFORMANCE."
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "id": "scene_4_mui3pqf7",
+        "transitionType": "smoothleft",
+        "audioDirection": "Heartbeat rhythm intensifies in the soundtrack.",
+        "interactionId": "v1_ChczbjIzYXJuMkpJQ2lqdU1Qck0yQzRBSRIXM24yM2FybjJKSUNpanVNUHJNMkM0QUk",
+        "imagePrompt": "A professional personal trainer in matte black gear correcting a beginner's form, modern gym facility background with warm red glow, soft smoke in the air, high-contrast shadows, 35mm anamorphic.",
+        "title": "The Transformation",
+        "videoPrompt": "Mid-shot of the trainer nodding and pointing, athlete pushing through a final rep, facial expression of determination, intense low-key lighting with red backlighting.. Director Edit: Change the background to warm brutalist architectural concrete",
+        "sceneNumber": 4,
+        "versionHistory": [],
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "overlayText": "EXPERT GUIDANCE.",
+        "status": "video_ready",
+        "cameraMovement": "Slow push-in toward the athlete's face.",
+        "imageUrl": "/assets/images/scene_4_mui3pqf7_1790409840040.jpg",
+        "approved": true,
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "directorNotes": "Applied edit via gemini-omni-1.1-flash: \"Change the background to warm brutalist architectural concrete\"",
+        "durationSeconds": 6,
+        "videoUrl": "/assets/videos/scene_4_mui3pqf7_v1_1790410211264.mp4",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "IRONFORGE FITNESS — The Transformation"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "EXPERT GUIDANCE."
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      },
+      {
+        "versionHistory": [],
+        "videoModelUsed": "gemini-omni-1.1-flash",
+        "durationSeconds": 6,
+        "directorNotes": "Applied edit via gemini-omni-1.1-flash: \"Make the transition smoother with a slow pull-back reveal\"",
+        "id": "scene_5_mui3pqf7",
+        "transitionType": "cut",
+        "imageUrl": "/assets/images/scene_5_mui3pqf7_1790409844155.jpg",
+        "approved": true,
+        "videoUrl": "/assets/videos/scene_5_mui3pqf7_v1_1790410273714.mp4",
+        "audioDirection": "Final heavy metallic thud followed by silence then a soft synth pad.",
+        "title": "The Call to Action",
+        "imagePrompt": "Hero shot of a fit athlete standing in silhouette against a glowing red IronForge Fitness logo on a textured black wall, cinematic smoke, dramatic rim lighting, 16:9 ratio, photorealistic.",
+        "interactionId": "v1_ChdISDYzYXNPZE1fYlY0LUVQcHFDU3dBOBIXSEg2M2FzT2RNX2JWNC1FUHBxQ1N3QTg",
+        "videoPrompt": "Camera pulls back to reveal the full facility logo, logo glows with a metallic red pulse, athlete turns to look at camera, final title card appears.. Director Edit: Make the transition smoother with a slow pull-back reveal",
+        "sceneNumber": 5,
+        "status": "video_ready",
+        "overlayText": "IRONFORGE FITNESS. START YOUR JOURNEY.",
+        "cameraMovement": "Slow Pull-Back Reveal",
+        "imageModelUsed": "gemini-3.1-flash-lite-image",
+        "subtitleCues": [
+          {
+            "startSeconds": 0.05,
+            "endSeconds": 3,
+            "text": "IRONFORGE FITNESS — The Call to Action"
+          },
+          {
+            "startSeconds": 3,
+            "endSeconds": 6,
+            "text": "IRONFORGE FITNESS. START YOUR JOURNEY."
+          }
+        ],
+        "subtitleStyle": "cinema_yellow"
+      }
+    ],
+    "soundtrack": {
+      "audioUrl": "/assets/audio/soundtrack_camp_mui3pgzj_1790410324424.mp3",
+      "includeInFinalMix": true,
+      "generatedLyricsOrNotes": "[[A0]]\n[[B1]]\n[[C2]]\n[[D3]]\n[[C4]]\n[[E5]]",
+      "volumeLevel": 0.85,
+      "modelUsed": "lyria-3.5",
+      "status": "ready",
+      "history": [],
+      "mood": "Uplifting Commercial Electronic",
+      "prompt": "Industrial rhythmic soundtrack, heavy metallic clangs synchronized with heartbeats, deep cinematic bass drops, high-energy building tempo, premium gritty atmosphere."
+    },
+    "finalRender": {
+      "ffmpegCommandLog": "ffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_1_mui3pqf7_v1_1790409993319.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='RAW POTENTIAL.':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui3pgzj_1790410331858/seg_00.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_2_mui3pqf7_v1_1790410062242.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='FORGED IN INTENSITY.':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui3pgzj_1790410331858/seg_01.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_3_mui3pqf7_v1_1790410119792.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='PREMIUM PERFORMANCE.':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui3pgzj_1790410331858/seg_02.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_4_mui3pqf7_v1_1790410211264.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='EXPERT GUIDANCE.':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48,fade=t=in:st=0:d=0.35,fade=t=out:st=5.55:d=0.4 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui3pgzj_1790410331858/seg_03.mp4\n\nffmpeg -y -stream_loop -1 -i /app/applet/public/assets/videos/scene_5_mui3pqf7_v1_1790410273714.mp4 -t 6 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black,fps=24,format=yuv420p,drawtext=text='IRONFORGE FITNESS. START YOUR JOURNEY.':fontcolor=white:fontsize=28:box=1:boxcolor=black@0.55:boxborderw=12:x=(w-text_w)/2:y=h-text_h-48 -an -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui3pgzj_1790410331858/seg_04.mp4\n\nffmpeg -y -f concat -safe 0 -i /app/applet/public/assets/temp/camp_mui3pgzj_1790410331858/concat_list.txt -c:v libx264 -preset veryfast -pix_fmt yuv420p /app/applet/public/assets/temp/camp_mui3pgzj_1790410331858/concatenated_video.mp4\n\nffmpeg -y -i /app/applet/public/assets/temp/camp_mui3pgzj_1790410331858/concatenated_video.mp4 -stream_loop -1 -i /app/applet/public/assets/audio/soundtrack_camp_mui3pgzj_1790410324424.mp3 -t 30 -filter:a volume=0.85,afade=t=in:st=0:d=0.6,afade=t=out:st=28.50:d=1.4 -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -shortest /app/applet/public/assets/renders/ad_camp_mui3pgzj_1790410351266.mp4",
+      "videoUrl": "/assets/renders/ad_camp_mui3pgzj_1790410351266.mp4",
+      "resolution": "1280x720",
+      "durationSeconds": 30,
+      "renderedAt": "2026-09-26T08:12:31.934Z",
+      "validationReport": {
+        "fileSizeBytes": 5374793,
+        "audioCodec": "aac",
+        "valid": true,
+        "frameCount": 720,
+        "height": 720,
+        "durationSeconds": 30,
+        "width": 1280,
+        "checkedAt": "2026-09-26T08:12:31.932Z",
+        "videoCodec": "h264",
+        "hasAudioStream": true
+      },
+      "status": "completed",
+      "fps": 24,
+      "fileSizeBytes": 5374793
+    },
+    "createdAt": "2026-09-26T08:01:50.851Z",
+    "updatedAt": "2026-09-26T17:26:03.425Z",
+    "referenceImageUrl": "",
+    "localizedVariants": []
   }
 ]

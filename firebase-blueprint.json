@@ -1,27 +1,65 @@
 {
   "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Public studio profile for an authenticated creative director.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "displayName": { "type": "string", "maxLength": 120 },
+        "photoURL": { "type": "string", "maxLength": 1024 },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 },
+        "lastLoginAt": { "type": "string", "format": "date-time", "maxLength": 64 }
+      },
+      "required": ["uid", "displayName", "createdAt", "lastLoginAt"]
+    },
+    "UserPrivateInfo": {
+      "title": "UserPrivateInfo",
+      "description": "Isolated PII document storing the authenticated user's email address.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "email": { "type": "string", "format": "email", "maxLength": 256 },
+        "updatedAt": { "type": "string", "format": "date-time", "maxLength": 64 }
+      },
+      "required": ["uid", "email", "updatedAt"]
+    },
     "Campaign": {
       "title": "Campaign",
       "description": "Multimodal AI advertisement campaign with creative brief, AI plan, storyboard scenes, soundtrack, and rendered MP4 output.",
       "type": "object",
       "properties": {
-        "id": { "type": "string" },
-        "ownerId": { "type": "string" },
-        "brandName": { "type": "string" },
-        "productDescription": { "type": "string" },
-        "targetAudience": { "type": "string" },
-        "campaignObjective": { "type": "string" },
-        "creativeStyle": { "type": "string" },
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "ownerId": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "brandName": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "productDescription": { "type": "string", "minLength": 1, "maxLength": 5000 },
+        "targetAudience": { "type": "string", "maxLength": 2000 },
+        "campaignObjective": { "type": "string", "maxLength": 2000 },
+        "creativeStyle": { "type": "string", "maxLength": 2000 },
         "durationSeconds": { "type": "number" },
         "aspectRatio": { "type": "string", "enum": ["16:9", "9:16", "1:1"] },
-        "language": { "type": "string" },
-        "status": { "type": "string" },
+        "language": { "type": "string", "maxLength": 100 },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "planned",
+            "storyboarding",
+            "video_production",
+            "scoring",
+            "rendering",
+            "completed",
+            "failed"
+          ]
+        },
         "plan": { "type": "object" },
-        "scenes": { "type": "array", "items": { "type": "object" } },
+        "scenes": { "type": "array" },
         "soundtrack": { "type": "object" },
+        "voiceover": { "type": "object" },
         "finalRender": { "type": "object" },
-        "createdAt": { "type": "string", "format": "date-time" },
-        "updatedAt": { "type": "string", "format": "date-time" }
+        "orchestrationState": { "type": "object" },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 },
+        "updatedAt": { "type": "string", "format": "date-time", "maxLength": 64 }
       },
       "required": ["id", "ownerId", "brandName", "productDescription", "status", "createdAt", "updatedAt"]
     },
@@ -30,21 +68,32 @@
       "description": "Tracks generation and FFmpeg rendering jobs across Nano Banana 2 Lite, Gemini Omni Flash, Lyria, and FFmpeg.",
       "type": "object",
       "properties": {
-        "id": { "type": "string" },
-        "campaignId": { "type": "string" },
-        "ownerId": { "type": "string" },
-        "type": { "type": "string" },
+        "id": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "campaignId": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "ownerId": { "type": "string", "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "type": {
+          "type": "string",
+          "enum": ["plan", "scene_image", "scene_video", "scene_edit", "soundtrack", "final_render"]
+        },
         "status": { "type": "string", "enum": ["queued", "running", "completed", "failed"] },
         "progress": { "type": "number" },
-        "modelId": { "type": "string" },
-        "message": { "type": "string" },
-        "createdAt": { "type": "string", "format": "date-time" },
-        "updatedAt": { "type": "string", "format": "date-time" }
+        "modelId": { "type": "string", "maxLength": 128 },
+        "message": { "type": "string", "maxLength": 1000 },
+        "createdAt": { "type": "string", "format": "date-time", "maxLength": 64 },
+        "updatedAt": { "type": "string", "format": "date-time", "maxLength": 64 }
       },
-      "required": ["id", "campaignId", "ownerId", "type", "status", "createdAt"]
+      "required": ["id", "campaignId", "ownerId", "type", "status", "createdAt", "updatedAt"]
     }
   },
   "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "Stores public user profile metadata for authenticated users."
+    },
+    "/users/{userId}/private/{docId}": {
+      "schema": { "$ref": "#/entities/UserPrivateInfo" },
+      "description": "Stores private PII (email) strictly restricted to the user."
+    },
     "/campaigns/{campaignId}": {
       "schema": { "$ref": "#/entities/Campaign" },
       "description": "Stores multimodal ad campaigns and scene storyboards."

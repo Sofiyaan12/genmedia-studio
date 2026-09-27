@@ -221,10 +221,10 @@ npm run dev
 
 ## 8. Team Contributions
 
-### 1. Mohammed Sofiyaan — Full-Stack Architecture, Frontend Workstation & Backend Orchestration
-* Architected the end-to-end **GenMedia Studio** web workstation (`src/App.tsx`, `src/components/*`) with a dark-mode cinema NLE layout, 4-stage pipeline navigation, and persistent campaign drawer.
-* Implemented the Express orchestration server (`server.ts`) and reference Python FastAPI service (`backend/main.py`) following a unified REST API contract (`/api/campaigns/*`, `/api/models/verify`).
-* Integrated dual-layer persistence combining **Firebase Firestore + Google Authentication** (`src/firebase.ts`, `firestore.rules`, `firebase-blueprint.json`) with local JSON state mirroring (`data/campaigns.json`, `data/jobs.json`) and live background job telemetry.
+### 1. Mohammed Sofiyaan — Frontend, Backend, Orchestration, Agentic AI & AI Campaign Planner
+* Architected the end-to-end **GenMedia Studio** frontend and backend (`src/App.tsx`, `src/components/*`), Express orchestration server (`server.ts`), and multi-agent **Agentic AI** model build (`server/agentOrchestrator.ts`, `AgenticCommandCenter.tsx`).
+* Designed the **AI Campaign Planner** (`generateCampaignPlanAndStoryboard` using `gemini-3-flash-preview` with structured JSON `responseSchema`) to transform user briefs into cohesive creative concepts, hex color palettes, lens/lighting specifications, and scene-by-scene storyboards (`BriefAndPlannerStage.tsx`).
+* Built the regional localization engine, live credential verification suite (`scripts/verify_models.ts`, `ModelVerificationModal.tsx`), and automated end-to-end QA pipeline (`scripts/run_e2e_pipeline_test.ts`).
 
 ### 2. Syed Saad Ahmed — Multimodal Image & Video Pipeline (`gemini-3.1-flash-lite-image` & `gemini-omni-1.1-flash`)
 * Integrated **Nano Banana 2 Lite (`gemini-3.1-flash-lite-image`)** in `server/genmediaService.ts` for rapid storyboard image generation, implementing reference-image chaining (passing Scene 1's keyframe or uploaded product photo as `inlineData` to subsequent scenes) to maintain cross-scene visual consistency.
@@ -236,10 +236,8 @@ npm run dev
 * Built the **FFmpeg Master Rendering Pipeline** (`server/ffmpegRenderer.ts`) supporting multi-aspect normalization (`1280x720`, `720x1280`, `720x720` @ `24 fps` `yuv420p`), Ken Burns motion synthesis (`zoompan`), lower-third typography burn-in (`drawtext`), scene fade transitions, and stereo AAC soundtrack mixing with `afade` envelopes.
 * Implemented automated post-render stream validation using `ffprobe` (`validateVideoAsset`) to verify video/audio codecs, frame counts, duration, and file integrity prior to export.
 
-### 4. Mohamed Mustafa Ali Khan — AI Campaign Planner, Prompt Engineering, Model Verification & QA
-* Designed the **AI Campaign Planner** (`generateCampaignPlanAndStoryboard` using `gemini-3-flash-preview` with structured JSON `responseSchema`) to transform user briefs into cohesive creative concepts, hex color palettes, lens/lighting specifications, and scene-by-scene storyboards (`BriefAndPlannerStage.tsx`).
-* Authored the live credential verification suite (`scripts/verify_models.ts`, `ModelVerificationModal.tsx`) that empirically tested model availability, API interfaces, and output modalities across all required hackathon models.
-* Built the automated end-to-end test harness (`scripts/run_e2e_pipeline_test.ts`), curated the studio campaign presets (*KONA AERO*, *AETHERIA*, *VELOCE CARBON*), and led quality assurance and technical documentation.
+### 4. Mohamed Mustafa Ali Khan — Cloud Sync, Database & Authentication
+* Engineered the **Cloud Sync** architecture and **Firebase Authentication + Cloud Firestore** database persistence layer (`src/firebase.ts`, `firestore.rules`, `firebase-blueprint.json`, `ProfileAndDatabaseStage.tsx`).
 
 ---
 
